@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<ModOps>
+
+<ModOp Type="add" GUID='100438' Path="/Values/ItemContainer"><!-- Schooner -->
+<InitSocketItems>
+    <Item>
+        <Item>191991</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='100441' Path="/Values/ItemContainer"><!-- Clipper -->
+<InitSocketItems>
+    <Item>
+        <Item>191991</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1010062' Path="/Values/ItemContainer"><!-- Cargo Ship -->
+<InitSocketItems>
+    <Item>
+        <Item>191991</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102455' Path="/Values/ItemContainer"><!-- Extravaganza Steamer -->
+<InitSocketItems>
+    <Item>
+        <Item>191991</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>191624</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='118718' Path="/Values/ItemContainer"><!-- Great Eastern -->
+<InitSocketItems>
+    <Item>
+        <Item>191991</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>191624</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='132404' Path="/Values/ItemContainer"><!-- World-Class Reefer -->
+<InitSocketItems>
+    <Item>
+        <Item>191991</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+</ModOps>

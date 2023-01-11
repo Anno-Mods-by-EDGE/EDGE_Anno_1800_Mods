@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+
+<ModOps>
+
+<!-- Helium Gas -->
+<ModOp Type="add" GUID='1755' Path="/Values/ItemContainer"><!-- Boreas -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1654' Path="/Values/ItemContainer"><!-- Colibri -->
+<InitSocketItems>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1054' Path="/Values/ItemContainer"><!-- Colibri (Armed) -->
+<InitSocketItems>
+    <Item>
+        <Item>4135</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>117302</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1655' Path="/Values/ItemContainer"><!-- Alicanto -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1056' Path="/Values/ItemContainer"><!-- Alicanto (Armed) -->
+<InitSocketItems>
+    <Item>
+        <Item>4135</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>117302</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>2232</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <!-- <Item>
+        <Item>191610</Item>
+        <StackSize>1</StackSize>
+    </Item> -->
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1058' Path="/Values/ItemContainer"><!-- Atotolin -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1059' Path="/Values/ItemContainer"><!-- Dtundt -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>117302</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1060' Path="/Values/ItemContainer"><!-- Quetz -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<!-- Helium Gas -->
+<ModOp Type="add" GUID='114166' Path="/Values/ItemContainer"><!-- Boreas -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1733' Path="/Values/ItemContainer"><!-- Colibri -->
+<InitSocketItems>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1731' Path="/Values/ItemContainer"><!-- Colibri (Armed) -->
+<InitSocketItems>
+    <Item>
+        <Item>4135</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>117302</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1734' Path="/Values/ItemContainer"><!-- Alicanto -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1732' Path="/Values/ItemContainer"><!-- Alicanto (Armed) -->
+<InitSocketItems>
+    <Item>
+        <Item>4135</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>117302</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>2232</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <!-- <Item>
+        <Item>191610</Item>
+        <StackSize>1</StackSize>
+    </Item> -->
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1735' Path="/Values/ItemContainer"><!-- Atotolin -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1736' Path="/Values/ItemContainer"><!-- Dtundt -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>117302</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='1737' Path="/Values/ItemContainer"><!-- Quetz -->
+<InitSocketItems>
+    <Item>
+        <Item>116174</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>116173</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+</ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+    <!-- Office -->
+    <ModOp Type="add" GUID='3741,3761,4260' Path="/Values/ItemContainer">
+         <SocketScope>Area</SocketScope>
+    </ModOp>
+
+    <!-- Box -->
+	<ModOp Type="add" GUID='538,3661' Path="/Values/ItemContainer">
+        <SocketScope>Area</SocketScope>
+    </ModOp>
+
+ </ModOps>

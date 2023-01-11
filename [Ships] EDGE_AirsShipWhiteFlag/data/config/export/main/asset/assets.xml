@@ -1,0 +1,294 @@
+
+<!--New legendary Items-->
+
+<ModOps>
+ <!--Add new White Flag-->
+ <ModOp Type="addNextSibling" GUID="125072">
+    <Asset>
+                      <Template>ActiveItem</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>8100552602</GUID>
+                          <Name>Great White Banner</Name>
+                          <IconFilename>data/ui/White_Flag_00.png</IconFilename>
+                          <InfoDescription>2100119182</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>A Great White Flag</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>1</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>29562</LineID>
+                        </Text>
+                        <Item>
+                          <Allocation>Warship</Allocation>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Legendary</Rarity>
+                          <HasAction>1</HasAction>
+                          <ExclusiveGroup>Flag</ExclusiveGroup>
+                          <TradePrice>1100000</TradePrice>
+                        </Item>
+                        <Cost />
+                        <ItemAction>
+                          <ActionDistance>20</ActionDistance>
+                          <RepairSpeed>10</RepairSpeed>
+                          <ActionCooldown>600000</ActionCooldown>
+                          <ActionDuration>600000</ActionDuration>
+                          <ActiveBuff>192175</ActiveBuff>
+                          <ActionDescription>20071</ActionDescription>
+                          <CanEndItemAction>0</CanEndItemAction>
+                        </ItemAction>
+                        <ExpeditionAttribute>
+                          <BaseMorale>0</BaseMorale>
+                          <ExpeditionAttributes>
+                            <Item>
+                              <Attribute>Melee</Attribute>
+                              <Amount>35</Amount>
+                            </Item>
+                            <Item>
+                              <Attribute>Might</Attribute>
+                              <Amount>35</Amount>
+                            </Item>
+                          </ExpeditionAttributes>
+                          <ItemDifficulties>Hard</ItemDifficulties>
+                          <FluffText>19794</FluffText>
+                        </ExpeditionAttribute>
+                        <SpecialAction />
+                        <Locked />
+                        <CraftableItem />
+                      </Values>
+    </Asset>
+ </ModOp>
+ <!--Create new Itempool Backpackers Specialists-->
+ <ModOp Type="addNextSibling" GUID="22676">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>8100552602</GUID>
+          <Name>BackpackersSpecialistsGuildhouse</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+	  </Asset>
+ </ModOp>
+
+ <ModOp Type="addNextSibling" GUID="22676">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119162</GUID>
+          <Name>BackpackersSpecialistsTownhall</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+	  </Asset>
+ </ModOp>
+
+ <!--Create new Itempool Backpackers Consumables-->
+ <ModOp Type="addNextSibling" GUID="22676">
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2100119161</GUID>
+          <Name>BackpackersConsumables</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+	  </Asset>
+ </ModOp>
+
+ <!--Add new Specialists-Itempool Guildhouse to existing Itempools with weight 5-->
+ <ModOp Type="add" GUID="192909,193211,192502,193527,193594,190982,190983,193963,193234,192975,193069" Path="/Values/RewardPool/ItemsPool">
+                        <Item>
+                          <ItemLink>8100552602</ItemLink>
+                          <Weight>5</Weight>
+                        </Item>
+ </ModOp>
+
+ <!--Add new Specialists-Itempool Townhall to existing Itempools with weight 5-->
+ <ModOp Type="add" GUID="192909,193211,192502,193527,193594,190982,190983,192752,193234,192975,193069,192850" Path="/Values/RewardPool/ItemsPool">
+                        <Item>
+                          <ItemLink>2100119162</ItemLink>
+                          <Weight>5</Weight>
+                        </Item>
+ </ModOp>
+
+ <!--Add new Consumables-Itempool to existing Itempools without weight (last adds items to research institute)-->
+ <ModOp Type="add" GUID="192717,192727,192707,192882,192599,190984,193005,193527,193594,192502,193211" Path="/Values/RewardPool/ItemsPool">
+                        <Item>
+                          <ItemLink>2100119161</ItemLink>
+                        </Item>
+ </ModOp>
+
+ <!--Add new Items to new Specialists-Itempool Guildhouse-->
+ <ModOp Type="add" GUID="2100119160" Path="/Values/RewardPool/ItemsPool">
+
+                        <Item>
+                          <ItemLink>8100552602</ItemLink>
+                        </Item>
+
+ </ModOp>
+
+ <!--Add new Items to new Specialists-Itempool Townhall-->
+ <ModOp Type="add" GUID="2100119162" Path="/Values/RewardPool/ItemsPool">
+
+                        <Item>
+                          <ItemLink>2100119190</ItemLink>
+                        </Item>
+                        <Item>
+                          <ItemLink>2100119196</ItemLink>
+                        </Item>
+                        <Item>
+                          <ItemLink>2100119169</ItemLink>
+                        </Item>
+                        <Item>
+                          <ItemLink>2100119168</ItemLink>
+                        </Item>
+                        <Item>
+                          <ItemLink>2100119167</ItemLink>
+                        </Item>
+ </ModOp>
+
+ <!--Add new Items to new Consumables-Itempool-->
+ <ModOp Type="add" GUID="2100119161" Path="/Values/RewardPool/ItemsPool">
+                        <Item>
+                          <ItemLink>2100119201</ItemLink>
+                        </Item>
+                        <Item>
+                          <ItemLink>2100119202</ItemLink>
+                        </Item>
+                        <Item>
+                          <ItemLink>2100119209</ItemLink>
+                        </Item>
+ </ModOp>
+
+ <ModOp Type="add" GUID="130172" Path="/Values/AssetPool/AssetList">
+                        <Item>
+                          <Asset>2100119190</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119191</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119192</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119193</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119194</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119195</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119196</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119197</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119198</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119199</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119201</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119202</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119203</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119204</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119205</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119206</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119208</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119209</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119169</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119168</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>2100119167</Asset>
+                        </Item>
+
+ </ModOp>
+
+ <!--Reset Trigger for new Items; 130218 includes 130172 which includes the items-->
+ <ModOp Type="addNextSibling" GUID="130218">
+   <Asset>
+	  <Template>Trigger</Template>
+	  <Values>
+	    <Standard>
+		  <GUID>2100119153</GUID>
+		  <Name>Rerun TriggerItems Intermediate moderate 3.2</Name>
+		</Standard>
+		<Trigger>
+		  <TriggerCondition>
+		    <Template>ConditionPlayerCounter</Template>
+			<Values>
+			  <Condition />
+			  <ConditionPlayerCounter>
+			    <PlayerCounter>PopulationByLevel</PlayerCounter>
+				<Context>2100119379</Context>
+				<CounterAmount>80</CounterAmount>
+			  </ConditionPlayerCounter>
+			</Values>
+		  </TriggerCondition>
+		  <TriggerActions>
+		    <Item>
+			  <TriggerAction>
+			    <Template>ActionRegisterTrigger</Template>
+				  <Values>
+				      <Action />
+				      <ActionRegisterTrigger>
+				        <TriggerAsset>130218</TriggerAsset>
+				      </ActionRegisterTrigger>
+				  </Values>
+			  </TriggerAction>
+			  </Item>
+		  </TriggerActions>
+		</Trigger>
+	  <TriggerSetup />
+	  </Values>
+	 </Asset>
+ </ModOp>
+
+
+</ModOps>

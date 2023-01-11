@@ -1,0 +1,26 @@
+#?.md version="1.0" encoding="utf-8" standalone="no"?
+#?author="Castiga"?
+#Exemple
+  #	<!-- Whole Folder -->
+  # *.shapes
+  #	<!-- Specific Folder -->
+  # *data/*.shapes
+
+# build files
+*.exe
+
+# Prerequisites
+
+# Compiled sources
+
+# build files
+
+# Object files
+
+# Precompiled Headers
+
+# Libraries
+
+# Shared objects (inc. Windows DLLs)
+
+# Executables

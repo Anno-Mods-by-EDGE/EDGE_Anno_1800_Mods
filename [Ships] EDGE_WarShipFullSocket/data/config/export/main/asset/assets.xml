@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+
+<ModOps>
+
+<ModOp Type="add" GUID='101121' Path="/Values/ItemContainer"><!-- Flagship -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='100437' Path="/Values/ItemContainer"><!-- Gunboat -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='100439' Path="/Values/ItemContainer"><!-- Frigate -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='100440' Path="/Values/ItemContainer"><!-- Ship-of-the-line -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>191625</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <!-- <Item>
+        <Item>191610</Item>
+        <StackSize>1</StackSize>
+    </Item> -->
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='100442' Path="/Values/ItemContainer"><!-- Battle Cruiser -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>191625</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112370</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <!-- <Item>
+        <Item>191610</Item>
+        <StackSize>1</StackSize>
+    </Item> -->
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='100443' Path="/Values/ItemContainer"><!-- Monitor -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102420' Path="/Values/ItemContainer"><!-- Pirate Gunboat -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102421' Path="/Values/ItemContainer"><!-- Pirate Frigate -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102419' Path="/Values/ItemContainer"><!-- Pirate Ship of the Line -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>191625</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <!-- <Item>
+        <Item>191610</Item>
+        <StackSize>1</StackSize>
+    </Item> -->
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102427' Path="/Values/ItemContainer"><!-- Royal Ship of the Line -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>191625</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <!-- <Item>
+        <Item>191610</Item>
+        <StackSize>1</StackSize>
+    </Item> -->
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102437' Path="/Values/ItemContainer"><!-- Imperial Command Ship -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102422' Path="/Values/ItemContainer"><!-- Monitor Freedooter -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102423' Path="/Values/ItemContainer"><!-- Monitor Pyrphorian -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102425' Path="/Values/ItemContainer"><!-- Pyrphorian Battle Cruiser -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>191625</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112370</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <!-- <Item>
+        <Item>191610</Item>
+        <StackSize>1</StackSize>
+    </Item> -->
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+<ModOp Type="add" GUID='102428' Path="/Values/ItemContainer"><!-- Pyrphorian Warship -->
+<InitSocketItems>
+    <Item>
+        <Item>192172</Item>
+        <StackSize>1</StackSize>
+    </Item>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSocketItems>
+<!-- <InitSlotItems>
+    <Item>
+        <Item>112379</Item>
+        <StackSize>1</StackSize>
+    </Item>
+</InitSlotItems> -->
+</ModOp>
+
+</ModOps>

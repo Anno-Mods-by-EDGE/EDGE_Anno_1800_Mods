@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<ModOps>
+
+<ModOp Type="add" GUID='1010062' Path="/Values/ItemContainer">
+<InitSocketItems>
+<Item>
+<Item>191991</Item>
+<StackSize>1</StackSize>
+</Item>
+</InitSocketItems>
+<InitSlotItems>
+<Item>
+ <Item>191878</Item>
+<StackSize>1</StackSize>
+</Item>
+</InitSlotItems>
+</ModOp>
+
+<ModOp Type="add" GUID='100438' Path="/Values/ItemContainer">
+<InitSocketItems>
+<Item>
+<Item>191991</Item>
+<StackSize>1</StackSize>
+</Item>
+</InitSocketItems>
+<InitSlotItems>
+<Item>
+    <Item>112379</Item>
+    <StackSize>1</StackSize>
+</Item>
+</InitSlotItems>
+</ModOp>
+
+<ModOp Type="add" GUID='100441' Path="/Values/ItemContainer">
+<InitSocketItems>
+<Item>
+<Item>191991</Item>
+<StackSize>1</StackSize>
+</Item>
+</InitSocketItems>
+<InitSlotItems>
+<Item>
+    <Item>112379</Item>
+    <StackSize>1</StackSize>
+</Item>
+</InitSlotItems>
+</ModOp>
+
+<ModOp Type="add" GUID='102455' Path="/Values/ItemContainer">
+<InitSocketItems>
+<Item>
+<Item>191991</Item>
+<StackSize>1</StackSize>
+</Item>
+</InitSocketItems>
+<InitSlotItems>
+<Item>
+    <Item>112379</Item>
+    <StackSize>1</StackSize>
+</Item>
+</InitSlotItems>
+</ModOp>
+
+</ModOps>

@@ -1,0 +1,10 @@
+<ModOps>
+ <!-- Asset List -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<!--Items-->
+		<Text>
+			<GUID>2845221060</GUID>
+			<Text>Forestry seed, for Islands without it.</Text>
+		</Text>
+  </ModOp>
+</ModOps>

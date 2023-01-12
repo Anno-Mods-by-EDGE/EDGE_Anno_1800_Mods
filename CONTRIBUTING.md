@@ -33,16 +33,16 @@ en=English - de=German - fr=French - es=Spanish - ru=Russian - pl=Polish - it=It
 
 Oops, thanks for finding that! If you know how to fix it, please feel free to fork the repository and submit a change via Pull Request.
 
-If you aren't sure how to fix it or just don't have time, we invite you to open a [new Issue](https://github.com/edge-gaming/Farming_Simulator_19_Mods/issues/new/choose). Please be sure to provide information so we can recreate the error.
+If you aren't sure how to fix it or just don't have time, we invite you to open a [new Issue](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/issues/new/choose). Please be sure to provide information so we can recreate the error.
 
 ### Translate existing resources
 
 At this time, we are only set up to translate the mods into various languages by using Google Translate. (but maybe you can help us change that :wink:) If you are planning to contribute a translation, please do the following:
 
 - Fork this repository
-- Choose your language in the [modDesc Folder](https://github.com/edge-gaming/Farming_Simulator_19_Mods/tree/master/modDesc) using the standard abbreviation for the language you are providing.
+- Choose your language in the [modDesc Folder](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods) and navigating to the correct mod, and update it using the standard abbreviation for the language you are providing.
 - If u can't find your language.
-  - Copy the most recent [English version](https://github.com/edge-gaming/Farming_Simulator_19_Mods/blob/master/modDesc/modDesc_l10n_en.xml) of the l10n_en to the file you created.
+  - Copy the most recent [English version](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods) of the l10n_en to the file you created.
 - Complete the translation
 - Give it a name describing what mod it belongs to like "FS19_"Template"_modDesc_l10n_"en".xml
 - Open a pull request against the `master` branch of this repository.

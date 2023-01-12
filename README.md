@@ -5,7 +5,7 @@ This Repository is a test to put all our Anno 1800 mods in one Repository, makin
 
 We ❤️ Contributors Like You!
 We’re eager to work with you, our user community, to improve these mods and develop new ones.
-Please check out our CONTRIBUTING guide for more information on getting started.
+Please check out our /CONTRIBUTING guide for more information on getting started.
 
 Looking for a resource that was once housed in our mod section? feel free to consult our Wiki & if u cant find it there, don't hesitate to contact us.
 This repository currently contains the full load of our mods, for singular mods/releases please visit https://github.com/Anno-Mods-by-EDGE. If you're looking to report an issue or a suggestion please refer to our issue template, and report it accordingly.

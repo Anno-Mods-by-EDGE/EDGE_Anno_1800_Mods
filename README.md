@@ -1,5 +1,5 @@
 # EDGE_Anno_1800_Mods
-A collection of all our current and upcoming mods, keep in mind that most of the files on this repository have not been made game ready, so find your release on nexusmods.com/anno1800
+A collection of all our current and upcoming mods, keep in mind that most of the files on this repository have not been made game ready, so find your release on https://nexusmods.com/anno1800
 
 This Repository is a test to put all our Anno 1800 mods in one Repository, making it cleaner and easier to work with our issues & projects, but also making it possible using our organization for more tasks.
 

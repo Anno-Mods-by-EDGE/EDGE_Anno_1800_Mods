@@ -126,11 +126,10 @@
                     </Item>
                     <!-- !! -->
                 </TransferData>
-                <SpawnStartShipAndKontor>0</SpawnStartShipAndKontor>
                 <SecondPartiesMaySettleHere>1</SecondPartiesMaySettleHere>
                 <WorldMapCardBackground>244158024</WorldMapCardBackground>
-                <WorldMapAsset>data/graphics/ui/3d_objects/world_map/clickable_south_america_01.cfg</WorldMapAsset>
-                <SecondPartyReferenceUnlock>1010464</SecondPartyReferenceUnlock>
+                <WorldMapAsset>data/graphics/ui/3d_objects/world_map/clickable_CraterBay_01.cfg</WorldMapAsset>
+                <SecondPartyReferenceUnlock>1010285</SecondPartyReferenceUnlock>
                 <SecondPartyForceFollowPlayer>1</SecondPartyForceFollowPlayer>
                 <SecondPartyMotivation>
                     <TargetPopulation>15000002</TargetPopulation>
@@ -278,7 +277,7 @@
             </Standard>
             <MapTemplate>
                 <IslandSize>Large</IslandSize>
-                <TemplateFilename>mods/[Map] EDGE_TheNewerWorld/data/sessions/maps\NewerWold/NewerWold.a7t</TemplateFilename>
+                <TemplateFilename>mods/[Map] EDGE_TheNewerWorld/data/sessions/maps/NewerWold/NewerWold.a7t</TemplateFilename>
                 <TemplateSize>Large</TemplateSize>
                 <TemplateRegion>Colony01</TemplateRegion>
                 <TemplateMapType>Snowflake</TemplateMapType>

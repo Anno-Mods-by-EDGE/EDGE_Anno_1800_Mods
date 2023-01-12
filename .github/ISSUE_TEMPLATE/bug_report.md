@@ -29,7 +29,7 @@ If applicable, add screenshots to help explain your problem.
 
 ***Desktop (please complete the following information):***
  - OS: [e.g. WINDOWS]
- - Engine [e.g. Game, Giants Editor]
+ - Engine [e.g. Game, Map Generation]
  - Version [e.g. 1.5.0.0]
  
 **Additional context**

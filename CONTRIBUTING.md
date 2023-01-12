@@ -44,7 +44,7 @@ At this time, we are only set up to translate the mods into various languages by
 - If u can't find your language.
   - Copy the most recent [English version](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/blob/EDGE_Repo/docs/Transation%20Templates/texts_english.xml) of the mod transation to a file you create.
 - Complete the translation
-- Give it a name describing what mod it belongs to like "FS19_"Template"_modDesc_l10n_"en".xml
+- Give it a name describing what mod it belongs to like "Template"_texts_"english".xml
 - Open a pull request against the `master` branch of this repository.
 - Be sure to @ mention a couple of your friends who are native speakers and ask them to review the translation.
 - Update your translation based on feedback from your friends.

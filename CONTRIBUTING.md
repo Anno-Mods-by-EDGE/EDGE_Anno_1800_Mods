@@ -1,4 +1,4 @@
-# Contributing to Farming_simulator_19_Mods
+# Contributing to Anno_1800_Mods
 
 :tada: Thank you for taking the time to contribute and for seeking out these instructions.
 
@@ -24,7 +24,7 @@ We're always looking for contributions to help improve these resources. This inc
 - Suggestions to new Mods.
 
 #### These are the Existing Game Languages:
-en=English - de=German - fr=French - es=Spanish - ru=Russian - pl=Polish - it=Italian - jp=Japanese - cz=Czech - pt=Portuguese - hu=Hungary - nl=Netherlands - cs=Chinese(Simplified) - ct=Chinese(Traditional) - br=Brazilian-Portuguese - tr=Turkish - ro=Romanian - kr=Korean.
+en=English - de=German - fr=French - es=Spanish - ru=Russian - pl=Polish - it=Italian - jp=Japanese - cz=Czech - pt=Portuguese - hu=Hungary - nl=Netherlands - cs=Chinese(Simplified) - ct=Chinese(Traditional) - br=Brazilian-Portuguese - tr=Turkish - ro=Romanian - kr=Korean - tw=taiwanese.
 <hr>
 
 ## How to contribute
@@ -40,9 +40,9 @@ If you aren't sure how to fix it or just don't have time, we invite you to open 
 At this time, we are only set up to translate the mods into various languages by using Google Translate. (but maybe you can help us change that :wink:) If you are planning to contribute a translation, please do the following:
 
 - Fork this repository
-- Choose your language in the [modDesc Folder](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods) and navigating to the correct mod, and update it using the standard abbreviation for the language you are providing.
+- Choose your language in the [Template Folder](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/tree/EDGE_Repo/docs/Transation%20Templates) and navigating to the correct mod, and update it using the standard abbreviation for the language you are providing.
 - If u can't find your language.
-  - Copy the most recent [English version](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods) of the l10n_en to the file you created.
+  - Copy the most recent [English version](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/blob/EDGE_Repo/docs/Transation%20Templates/texts_english.xml) of the mod transation to a file you create.
 - Complete the translation
 - Give it a name describing what mod it belongs to like "FS19_"Template"_modDesc_l10n_"en".xml
 - Open a pull request against the `master` branch of this repository.
@@ -53,19 +53,19 @@ When this process is complete, we will be thankful to merge the completed docume
 
 ### Contribute something new
 
-Whether you have an idea to make the mods better, or want to contribute a whole new ide for a mod. we :heart: new ideas! We invite you to open a new [Issue](https://github.com/edge-gaming/Farming_Simulator_19_Mods/issues/new/choose) to talk about it before you invest too much time. Of course, if you want to experiment first, you can [fork this repository](https://help.github.com/articles/working-with-forks/) and submit your idea via a Pull Request.
+Whether you have an idea to make the mods better, or want to contribute a whole new ide for a mod. we :heart: new ideas! We invite you to open a new [Issue](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/issues/new/choose) to talk about it before you invest too much time. Of course, if you want to experiment first, you can [fork this repository](https://help.github.com/articles/working-with-forks/) and submit your idea via a Pull Request.
 
 ### Not sure where to start?
 
-If you just want to help out, but don't have a particular change in mind, check out the [open issues](https://github.com/edge-gaming/Farming_Simulator_19_Mods/issues) for projects you can tackle, review an [open pull request](https://github.com/edge-gaming/Farming_Simulator_19_Mods/pulls), or check out [the projects](https://github.com/edge-gaming/Farming_Simulator_19_Mods/projects).
+If you just want to help out, but don't have a particular change in mind, check out the [open issues](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/issues) for projects you can tackle, review an [open pull request](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/pulls), or check out [the projects](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/projects).
 
 <hr>
 
 ### Building and testing
 
-When you are ready to have your mod/contribution tested, you will want submit it [here](https://github.com/edge-gaming/Farming_Simulator_19_Mods/upload/) under a new branch, and create a pull request!
+When you are ready to have your mod/contribution tested, you will want submit it [here](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/upload) under a new branch, and create a pull request!
 
 When you are ready to start building a mod with us, you will want to build the repository locally.
-This can be done by finding our [Template Mod Folder](https://github.com/FS-Mods-By-EDGE/FS19_Template_modFolder/releases)!
+This can be done by finding our [Template Mod Folder](https://github.com/Anno-Mods-by-EDGE/EDGE_TemplateModFolder/releases)!
 
-Thank you for contributing, and if there is anything else don't hesitate to check out our [wiki](https://github.com/edge-gaming/Farming_Simulator_19_Mods/wiki) or [Contact us](post@edgegaming.no)
+Thank you for contributing, and if there is anything else don't hesitate to check out our [wiki](https://github.com/Anno-Mods-by-EDGE/EDGE_Anno_1800_Mods/wiki) or [Contact us](post@edgegaming.no)

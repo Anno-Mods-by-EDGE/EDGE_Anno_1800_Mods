@@ -1,14 +1,14 @@
 <ModOps>
     <!-- Gas Power Plant -->
-    <ModOp GUID='117547' Path="/Values/Building" Type="add">
-        <AssociatedRegions>Arctic</AssociatedRegions>
+    <ModOp GUID='117547' Path="/Values/Building" Type="replace">
+        <AssociatedRegions>Arctic, Moderate</AssociatedRegions>
     </ModOp>
     <!-- Coal Heater -->
-    <ModOp GUID='114751' Path="/Values/HeatProvider" Type="merge">
+    <ModOp GUID='114751' Path="/Values/HeatProvider" Type="add">
         <HeatRange>20</HeatRange>
     </ModOp>
-    <ModOp GUID='114751' Path="/Values/FactoryBase" Type="merge">
-        <CycleTime>90</CycleTime>
+    <ModOp GUID='114751' Path="/Values/FactoryBase" Type="add">
+        <CycleTime>60</CycleTime>
     </ModOp>
     <!-- Electric Heater -->
     <ModOp Type="addNextSibling" GUID='114751'>
@@ -258,26 +258,15 @@
                         </Riot>
                     </PerIncidentProximityEffect>
                 </IncidentInfectable>
-                <LogisticNode>
-                    <TransporterCountMax>1</TransporterCountMax>
-                    <NeedsTransporterQueue>1</NeedsTransporterQueue>
-                </LogisticNode>
                 <StreetActivation />
                 <HeatProvider>
                     <MinProductivityPercentToProvideHeat>90</MinProductivityPercentToProvideHeat>
                     <MissingHeatNotification>115008</MissingHeatNotification>
                     <HeatRange>30</HeatRange>
                 </HeatProvider>
-                <FactoryBase>
-                    <FactoryInputs>
-                        <Item>
-                            <Product>112706</Product>
-                            <Amount>1</Amount>
-                            <StorageAmount>15</StorageAmount>
-                        </Item>
-                    </FactoryInputs>
-                    <CycleTime>135</CycleTime>
-                </FactoryBase>
+                <Electric>
+                    <MandatoryElectricity>1</MandatoryElectricity>
+                </Electric>
                 <StorageBase>
                     <StoredProducts>
                         <Item>

@@ -1,0 +1,12 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>244158020</GUID>
+      <Text>Crater Bay</Text>
+    </Text>
+    <Text>
+      <GUID>244158021</GUID>
+      <Text>Enter "Crater Bay"</Text>
+    </Text>
+  </ModOp>
+</ModOps>

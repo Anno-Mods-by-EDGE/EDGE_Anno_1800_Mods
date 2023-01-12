@@ -1,0 +1,50 @@
+{
+  "Version": "1",
+  "ModID": "ame_edge_snowflake_a59e3a44",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Map",
+    "English": "Map",
+    "French": "Map",
+    "German": "Map",
+    "Italian": "Map",
+    "Japanese": "Map",
+    "Korean": "Map",
+    "Polish": "Map",
+    "Russian": "Map",
+    "Spanish": "Map",
+    "Taiwanese": "Map"
+  },
+  "ModName": {
+    "Chinese": "EDGE_Snowflake",
+    "English": "EDGE_Snowflake",
+    "French": "EDGE_Snowflake",
+    "German": "EDGE_Snowflake",
+    "Italian": "EDGE_Snowflake",
+    "Japanese": "EDGE_Snowflake",
+    "Korean": "EDGE_Snowflake",
+    "Polish": "EDGE_Snowflake",
+    "Russian": "EDGE_Snowflake",
+    "Spanish": "EDGE_Snowflake",
+    "Taiwanese": "EDGE_Snowflake"
+  },
+  "Description": {
+    "Chinese": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "English": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "French": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "German": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "Italian": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "Japanese": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "Korean": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "Polish": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "Russian": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "Spanish": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest",
+    "Taiwanese": "Select Map Type 'EDGE_Snowflake' to play this map.\nWorld and  island sizes are fixed.\n\nNote:\n- Do not rename the mod folder. It will lead to a loading screen freeze.\n- You can combine map mods as long as they do not replace the same map type.\n\nThis mod has been created with the Community Map Editor for Anno 1800.\nYou can download the editor at:\nhttps://github.com/anno-mods/AnnoMapEditor/releases/latest"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Community Map Editor",
+  "CreatorContact": "https://github.com/anno-mods/AnnoMapEditor",
+  "Image": null
+}

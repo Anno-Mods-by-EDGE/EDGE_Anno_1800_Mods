@@ -1,3 +1,20 @@
-Trade ships will now be created with great white flag.
+-Trade ships will now be created with great white flag.-
+
 By EDGE Gaming
-v1.0
+Version: v1.0
+
+Great White Flag for Trade Ships.
+Adds Great white flag to trade ships.
+
+:: REQUIREMENTS::
+• any anno version
+
+:: FEATURES::
+• Adds great white flag to socets of all created trade ships, ai and players.
+• If you want the item to be in the cargo slot instead of already socketed use the InitSlotItems code in assets.xml instead of InitSocketItems.
+
+::  KNOWN ISSUES::
+• None.
+
+::  CREDITS::
+♦ EDGE Gaming Team

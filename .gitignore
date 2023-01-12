@@ -10,10 +10,9 @@
 *.exe
 
 # Prerequisites
+*.vs
 
 # Compiled sources
-
-# build files
 
 # Object files
 

@@ -241,13 +241,47 @@
                 </Asset>
     </ModOp>
 <!--Create new Itempool Legendary Seeds for Arctic Lodge-->
+	<ModOp Type="addNextSibling" GUID="112678">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>2845221065</GUID>
+					<Name>LegendarySeedsArcticLodge</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID="112678">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>2845221066</GUID>
+					<Name>rareSeedsArcticLodge</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
     <ModOp Type="addNextSibling" GUID="112678">
         <Asset>
             <Template>RewardPool</Template>
             <Values>
                 <Standard>
-                <GUID>2845221065</GUID>
-                <Name>LegendarySeedsArcticLodge</Name>
+                <GUID>2845221067</GUID>
+                <Name>SeedsArcticLodge</Name>
                 </Standard>
                 <RewardPool>
                 <ItemsPool>

@@ -327,7 +327,7 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>8857101</GUID>
+                    <GUID>9857101</GUID>
                     <Name>Intermediate Unhide Power Heater</Name>
                 </Standard>
                 <Trigger>
@@ -370,7 +370,7 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>88570102</GUID>
+                    <GUID>98570102</GUID>
                     <Name>Intermediate Unlock Power Heater</Name>
                 </Standard>
                 <Trigger>

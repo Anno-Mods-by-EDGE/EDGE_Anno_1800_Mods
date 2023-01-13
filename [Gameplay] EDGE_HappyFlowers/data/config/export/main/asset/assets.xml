@@ -1,0 +1,340 @@
+<ModOps>
+    <!-- Buildings -->
+    <ModOp Type="addNextSibling" GUID='114751'>
+        <!-- Electric Heater -->
+        <Asset>
+            <Template>FactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1210000</GUID>
+                    <Name>Flowerpot Factory</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_sewing_machine.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <BlockWater>1</BlockWater>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc12/graphics/buildings/production/sewing_machines/sewing_machines_workshop.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Flowerpot Factory</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60132</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>24963</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200802</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>201625</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1210001</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1210002</Product>
+                            <Amount>3</Amount>
+                            <StorageAmount>18</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>114364</Product>
+                            <Amount>6</Amount>
+                            <StorageAmount>30</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>836</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1010206</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                </FactoryBase>
+                <LogisticNode />
+                <AmbientMoodProvider>
+                    <Murmur>Factory</Murmur>
+                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>500</Amount>
+                            <InactiveAmount>250</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010116</Product>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable />
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Add Arctic power to chain -->
+    <ModOp GUID='117556' Path="/Values/ProductionChain" Type="merge">
+        <Building>7917547</Building>
+    </ModOp>
+    <!-- add production chains -->
+    <ModOp GUID='112856' Type="addNextSibling">
+        <!-- Power heater Chain -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>7857102</GUID>
+                    <Name>arctic heater chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Power.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>7997110</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>7917547</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>112690</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Heater</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>35197</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <!-- Gas heater Chain -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>6857102</GUID>
+                    <Name>arctic heater chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Gas.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>6857100</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>112690</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Heater</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>35197</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- add New Triggers -->
+    <ModOp GUID='112650' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnhideAssets" Type="merge">
+        <!-- Unhide Assets -->
+        <Item>
+            <Asset>7997110</Asset>
+        </Item>
+        <Item>
+            <Asset>7857102</Asset>
+        </Item>
+        <Item>
+            <Asset>7917547</Asset>
+        </Item>
+        <Item>
+            <Asset>6857100</Asset>
+        </Item>
+        <Item>
+            <Asset>6857102</Asset>
+        </Item>
+    </ModOp>
+    <!-- Unlock Assets -->
+    <ModOp GUID='112650' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
+        <!-- Unlock Chains -->
+        <Item>
+            <Asset>6857102</Asset>
+        </Item>
+        <Item>
+            <Asset>7857102</Asset>
+        </Item>
+    </ModOp>
+    <ModOp GUID='112651' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
+        <!-- Unlock Buildings -->
+        <Item>
+            <Asset>7997110</Asset>
+        </Item>
+        <Item>
+            <Asset>6857100</Asset>
+        </Item>
+        <Item>
+            <Asset>7917547</Asset>
+        </Item>
+    </ModOp>
+    <!-- Add to categories -->
+    <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '116029']">
+        <!-- Add Gas heater chain -->
+        <Item>
+            <Building>6857102</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '117075']">
+        <!-- Add Power heater chain -->
+        <Item>
+            <Building>7857102</Building>
+        </Item>
+    </ModOp>
+    <!-- Add Effects -->
+    <ModOp GUID='368' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>7997110</GUID>
+        </Item>
+        <Item>
+            <GUID>6857100</GUID>
+        </Item>
+        <Item>
+            <GUID>7917547</GUID>
+        </Item>
+    </ModOp>
+    <!-- Add to Feedback group -->
+    <ModOp GUID='142309' Type="merge" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>7997110</Building>
+        </Item>
+        <Item>
+            <Building>6857100</Building>
+        </Item>
+        <Item>
+            <Building>7917547</Building>
+        </Item>
+    </ModOp>
+</ModOps>

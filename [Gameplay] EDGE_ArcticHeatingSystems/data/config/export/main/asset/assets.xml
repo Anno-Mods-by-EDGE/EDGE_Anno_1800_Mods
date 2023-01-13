@@ -1,15 +1,4 @@
 <ModOps>
-    <!-- Gas Power Plant -->
-    <ModOp GUID='117547' Path="/Values/Building" Type="replace">
-        <AssociatedRegions>Arctic, Moderate</AssociatedRegions>
-    </ModOp>
-    <!-- Coal Heater -->
-    <ModOp GUID='114751' Path="/Values/HeatProvider" Type="add">
-        <HeatRange>20</HeatRange>
-    </ModOp>
-    <ModOp GUID='114751' Path="/Values/FactoryBase" Type="add">
-        <CycleTime>60</CycleTime>
-    </ModOp>
     <!-- Electric Heater -->
     <ModOp Type="addNextSibling" GUID='114751'>
         <Asset>
@@ -72,7 +61,7 @@
                                         <Index>1</Index>
                                     </Entry>
                                     <Entry>
-                                        <TemplateName>Market_Arctic</TemplateName>
+                                        <TemplateName>Market_Arctic  </TemplateName>
                                         <Index>1</Index>
                                     </Entry>
                                     <Entry>
@@ -300,6 +289,145 @@
                 </StorageBase>
             </Values>
         </Asset>
+    </ModOp>    
+    <ModOp GUID='112856' Type="addNextSibling">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>9857102</GUID>
+                    <Name>arctic Power heater chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Power.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>8997110</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>117547</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Heater</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>35197</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- New Triggers (885710x) -->
+    <ModOp Type="addNextSibling" GUID='130218'>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>8857101</GUID>
+                    <Name>Intermediate Unhide Power Heater</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>112643</Context>
+                                <CounterAmount>500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>8997110</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>9857102</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>88570102</GUID>
+                    <Name>Intermediate Unlock Power Heater</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>112643</Context>
+                                <CounterAmount>750</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>8997110</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>9857102</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '117075']">
+        <Item>
+            <Building>9857102</Building>
+        </Item>
+    </ModOp>
+    <ModOp GUID='190611' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>8997110</GUID>
+        </Item>
+    </ModOp>
+    <ModOp GUID='142309' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>8997110</Building>
+        </Item>
+    </ModOp>
+    <!-- Gas Power Plant -->
+    <ModOp GUID='117547' Path="/Values/Building" Type="replace">
+        <AssociatedRegions>Arctic, Moderate</AssociatedRegions>
     </ModOp>
     <!-- Gas Heater -->
     <ModOp Type="addNextSibling" GUID='114751'>
@@ -307,7 +435,7 @@
             <Template>Heater_Arctic</Template>
             <Values>
                 <Standard>
-                    <GUID>8997100</GUID>
+                    <GUID>8857100</GUID>
                     <Name>heater_arctic</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Gas.png</IconFilename>
                     <InfoDescription>114290</InfoDescription>
@@ -604,17 +732,16 @@
         </Asset>
     </ModOp>
     <ModOp GUID='112856' Type="addNextSibling">
-
         <Asset>
             <Template>ProductionChain</Template>
             <Values>
                 <Standard>
-                    <GUID>8997102</GUID>
+                    <GUID>8857102</GUID>
                     <Name>arctic heater chain</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Gas.png</IconFilename>
                 </Standard>
                 <ProductionChain>
-                    <Building>8997100</Building>
+                    <Building>8857100</Building>
                     <Tier1>
                         <Item>
                             <Building>112690</Building>
@@ -665,10 +792,10 @@
                                     <ActionUnlockAsset>
                                         <UnhideAssets>
                                             <Item>
-                                                <Asset>8997100</Asset>
+                                                <Asset>8857100</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>8997102</Asset>
+                                                <Asset>8857102</Asset>
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>
@@ -708,10 +835,10 @@
                                     <ActionUnlockAsset>
                                         <UnlockAssets>
                                             <Item>
-                                                <Asset>8997100</Asset>
+                                                <Asset>8857100</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>8997102</Asset>
+                                                <Asset>8857102</Asset>
                                             </Item>
                                         </UnlockAssets>
                                     </ActionUnlockAsset>
@@ -726,17 +853,35 @@
     </ModOp>
     <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '117075']">
         <Item>
-            <Building>8997102</Building>
+            <Building>8857102</Building>
         </Item>
     </ModOp>
     <ModOp GUID='190611' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
-            <GUID>8997100</GUID>
+            <GUID>8857100</GUID>
         </Item>
     </ModOp>
     <ModOp GUID='142309' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
-            <Building>8997100</Building>
+            <Building>8857100</Building>
         </Item>
+    </ModOp>
+    <!-- Coal Heater -->
+    <ModOp GUID='114751' Path="/Values/HeatProvider" Type="add">
+        <HeatRange>20</HeatRange>
+    </ModOp>
+    <ModOp GUID='114751' Path="/Values/FactoryBase" Type="add">
+        <CycleTime>60</CycleTime>
+    </ModOp>
+    <ModOp GUID='114751' Path="/Values" Type="merge">
+        <Standard>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>
+        </Standard>
+    </ModOp>
+    <!-- Coal Heater edit image -->
+    <ModOp GUID='112856' Path="/Values" Type="merge">
+        <Standard>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>
+        </Standard>
     </ModOp>
 </ModOps>

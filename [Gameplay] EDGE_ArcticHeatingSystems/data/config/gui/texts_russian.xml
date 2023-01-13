@@ -1,5 +1,6 @@
 <ModOps>
   <ModOp Path="/TextExport/Texts" Type="add">
+    <!-- Gas Heater -->
     <Text>
       <GUID>8857100</GUID>
       <Text>Газовый обогреватель</Text>
@@ -8,5 +9,14 @@
       <GUID>8857102</GUID>
       <Text>Газовое отопление</Text>
     </Text>
+    <!-- Power Heater -->
+      <Text>
+        <GUID>8997110</GUID>
+       <Text>Powered Heater</Text>
+     </Text>
+     <Text>
+       <GUID>9857102</GUID>
+       <Text>Powered Heating</Text>
+     </Text>
   </ModOp>
 </ModOps>

@@ -437,13 +437,13 @@
             <Building>8857100</Building>
         </Item>
     </ModOp>
-    <!-- Coal Heater
-    <ModOp GUID='114751' Path="/Asset/Values/HeatProvider" Type="replace">
+    <!-- Coal Heater -->
+    <ModOp GUID='114751' Path="/Asset/Values/HeatProvider" Type="add">
         <HeatRange>20</HeatRange>
     </ModOp>
-    <ModOp GUID='114751' Path="/Asset/Values/FactoryBase" Type="replace">
+    <ModOp GUID='114751' Path="/Asset/Values/FactoryBase" Type="add">
         <CycleTime>60</CycleTime>
-    </ModOp> -->
+    </ModOp>
     <!-- Coal Heater -->
     <ModOp GUID='114751' Path="/Values" Type="merge">
         <Standard>

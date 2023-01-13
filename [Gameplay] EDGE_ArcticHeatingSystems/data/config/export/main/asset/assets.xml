@@ -254,9 +254,6 @@
                     <MissingHeatNotification>115008</MissingHeatNotification>
                     <HeatRange>30</HeatRange>
                 </HeatProvider>
-                <Electric>
-                    <MandatoryElectricity>1</MandatoryElectricity>
-                </Electric>
                 <StorageBase>
                     <StoredProducts>
                         <Item>
@@ -295,7 +292,7 @@
             <Template>Heater_Arctic</Template>
             <Values>
                 <Standard>
-                    <GUID>8857100</GUID>
+                    <GUID>6857100</GUID>
                     <Name>heater_arctic</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Gas.png</IconFilename>
                     <InfoDescription>114290</InfoDescription>
@@ -797,12 +794,12 @@
             <Template>ProductionChain</Template>
             <Values>
                 <Standard>
-                    <GUID>8857102</GUID>
+                    <GUID>6857102</GUID>
                     <Name>arctic heater chain</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Gas.png</IconFilename>
                 </Standard>
                 <ProductionChain>
-                    <Building>8857100</Building>
+                    <Building>6857100</Building>
                     <Tier1>
                         <Item>
                             <Building>112690</Building>
@@ -823,52 +820,118 @@
             </Values>
         </Asset>
     </ModOp>
-    <!-- add New Triggers -->
-    <ModOp GUID='112650' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnhideAssets" Type="add">
-        <!-- Unhide Assets -->
-        <Item>
-            <Asset>7997110</Asset>
-        </Item>
-        <Item>
-            <Asset>7857102</Asset>
-        </Item>
-        <Item>
-            <Asset>7917547</Asset>
-        </Item>
-        <Item>
-            <Asset>8857100</Asset>
-        </Item>
-        <Item>
-            <Asset>8857102</Asset>
-        </Item>
-    </ModOp>
-    <!-- Unlock Assets -->
-    <ModOp GUID='112650' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="add">
-        <!-- Unlock Chains -->
-        <Item>
-            <Asset>8857102</Asset>
-        </Item>
-        <Item>
-            <Asset>7857102</Asset>
-        </Item>
-    </ModOp>
-    <ModOp GUID='112651' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="add">
-        <!-- Unlock Buildings -->
-        <Item>
-            <Asset>7997110</Asset>
-        </Item>
-        <Item>
-            <Asset>8857100</Asset>
-        </Item>
-        <Item>
-            <Asset>7917547</Asset>
-        </Item>
+    <!-- New Triggers -->
+    <ModOp Type="addNextSibling" GUID='130218'>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>7857101</GUID>
+                    <Name>Intermediate Unhide Gas Heater</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>112643</Context>
+                                <CounterAmount>300</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>7997110</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>7857102</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>7917547</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>6857100</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>6857102</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>78570102</GUID>
+                    <Name>Intermediate Unlock Gas Heater</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>112643</Context>
+                                <CounterAmount>750</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>7997110</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>7857102</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>7917547</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>6857100</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>6857102</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
     </ModOp>
     <!-- Add to categories -->
     <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '116029']">
         <!-- Add Gas heater chain -->
         <Item>
-            <Building>8857102</Building>
+            <Building>6857102</Building>
         </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '117075']">
@@ -878,25 +941,37 @@
         </Item>
     </ModOp>
     <!-- Add Effects -->
-    <ModOp GUID='368' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp GUID='368' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>7997110</GUID>
         </Item>
         <Item>
-            <GUID>8857100</GUID>
+            <GUID>6857100</GUID>
         </Item>
         <Item>
             <GUID>7917547</GUID>
         </Item>
     </ModOp>
     <!-- Add to Feedback group -->
-    <ModOp GUID='142309' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp GUID='142309' Type="merge" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>7997110</Building>
         </Item>
         <Item>
-            <Building>8857100</Building>
+            <Building>6857100</Building>
         </Item>
+        <Item>
+            <Building>7917547</Building>
+        </Item>
+    </ModOp>
+    <!-- Add to Feedback electric-->
+    <ModOp GUID='193856' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <Building>7997110</Building>
+        </Item>
+    </ModOp>
+    <!-- Add to item effect power plant -->
+    <ModOp GUID='6000018' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <Building>7917547</Building>
         </Item>

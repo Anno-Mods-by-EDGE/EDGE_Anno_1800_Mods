@@ -752,9 +752,27 @@
     <ModOp GUID='117556' Path="/Values/ProductionChain" Type="merge">
         <Building>7917547</Building>
     </ModOp>
+    <!-- Coal Heater -->
+    <ModOp GUID='114751' Path="/Values/HeatProvider" Type="add">
+        <HeatRange>20</HeatRange>
+    </ModOp>
+    <ModOp GUID='114751' Path="/Values/FactoryBase" Type="add">
+        <CycleTime>60</CycleTime>
+    </ModOp>
+    <ModOp GUID='114751' Path="/Values" Type="merge">
+        <Standard>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>
+        </Standard>
+    </ModOp>
+    <!-- Coal Heater edit production chain image -->
+    <ModOp GUID='112856' Path="/Values" Type="merge">
+        <Standard>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>
+        </Standard>
+    </ModOp>
     <!-- add production chains -->
+    <!-- Power heater Chain -->
     <ModOp GUID='112856' Type="addNextSibling">
-        <!-- Power heater Chain -->
         <Asset>
             <Template>ProductionChain</Template>
             <Values>
@@ -789,7 +807,9 @@
                 </Text>
             </Values>
         </Asset>
-        <!-- Gas heater Chain -->
+    </ModOp>
+    <!-- Gas heater Chain -->
+    <ModOp GUID='112709' Type="addNextSibling">
         <Asset>
             <Template>ProductionChain</Template>
             <Values>
@@ -827,7 +847,7 @@
             <Values>
                 <Standard>
                     <GUID>7857101</GUID>
-                    <Name>Intermediate Unhide Gas Heater</Name>
+                    <Name>Intermediate Unhide Chains</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -879,7 +899,7 @@
             <Values>
                 <Standard>
                     <GUID>78570102</GUID>
-                    <Name>Intermediate Unlock Gas Heater</Name>
+                    <Name>Intermediate Unlock Buildings</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -941,7 +961,7 @@
         </Item>
     </ModOp>
     <!-- Add Effects -->
-    <ModOp GUID='368' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp GUID='368' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>7997110</GUID>
         </Item>
@@ -953,7 +973,7 @@
         </Item>
     </ModOp>
     <!-- Add to Feedback group -->
-    <ModOp GUID='142309' Type="merge" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp GUID='142309' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>7997110</Building>
         </Item>
@@ -965,33 +985,15 @@
         </Item>
     </ModOp>
     <!-- Add to Feedback electric-->
-    <ModOp GUID='193856' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp GUID='193856' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
-            <Building>7997110</Building>
+            <GUID>7997110</GUID>
         </Item>
     </ModOp>
     <!-- Add to item effect power plant -->
-    <ModOp GUID='6000018' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp GUID='6000018' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
-            <Building>7917547</Building>
+            <GUID>7917547</GUID>
         </Item>
-    </ModOp>
-    <!-- Coal Heater -->
-    <ModOp GUID='114751' Path="/Values/HeatProvider" Type="add">
-        <HeatRange>20</HeatRange>
-    </ModOp>
-    <ModOp GUID='114751' Path="/Values/FactoryBase" Type="add">
-        <CycleTime>60</CycleTime>
-    </ModOp>
-    <ModOp GUID='114751' Path="/Values" Type="merge">
-        <Standard>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>
-        </Standard>
-    </ModOp>
-    <!-- Coal Heater edit production chain image -->
-    <ModOp GUID='112856' Path="/Values" Type="merge">
-        <Standard>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>
-        </Standard>
     </ModOp>
 </ModOps>

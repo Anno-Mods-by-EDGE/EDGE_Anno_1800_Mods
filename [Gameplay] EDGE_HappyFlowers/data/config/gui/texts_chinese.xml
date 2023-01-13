@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <!-- Gas Heater -->
+    <Text>
+      <GUID>6857100</GUID>
+      <Text>天然气暖炉</Text>
+    </Text>
+    <Text>
+      <GUID>6857102</GUID>
+      <Text>天然气加热</Text>
+    </Text>
+    <!-- Power Heater -->
+      <Text>
+        <GUID>7997110</GUID>
+       <Text>Powered Heater</Text>
+     </Text>
+     <Text>
+       <GUID>7857102</GUID>
+       <Text>Powered Heating</Text>
+     </Text>
+     <Text>
+       <GUID>7917547</GUID>
+       <Text>Gas Power Plant</Text>
+     </Text>
+  </ModOp>
+</ModOps>

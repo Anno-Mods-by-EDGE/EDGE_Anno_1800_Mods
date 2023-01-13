@@ -17,7 +17,7 @@
             <Values>
                 <Standard>
                     <GUID>8997110</GUID>
-                    <Name>heater_arctic</Name>
+                    <Name>heater_arctic_Elec</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Power.png</IconFilename>
                     <InfoDescription>114290</InfoDescription>
                 </Standard>

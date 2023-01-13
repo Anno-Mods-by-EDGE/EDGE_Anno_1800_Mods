@@ -1,6 +1,7 @@
 <ModOps>
-    <!-- Electric Heater -->
+    <!-- Add Buildings -->
     <ModOp Type="addNextSibling" GUID='114751'>
+        <!-- Electric Heater -->
         <Asset>
             <Template>Heater_Arctic</Template>
             <Values>
@@ -289,323 +290,7 @@
                 </StorageBase>
             </Values>
         </Asset>
-    </ModOp>    
-    <ModOp GUID='112856' Type="addNextSibling">
-        <Asset>
-            <Template>ProductionChain</Template>
-            <Values>
-                <Standard>
-                    <GUID>9857102</GUID>
-                    <Name>arctic Power heater chain</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Power.png</IconFilename>
-                </Standard>
-                <ProductionChain>
-                    <Building>8997110</Building>
-                    <Tier1>
-                        <Item>
-                            <Building>9117547</Building>
-                        </Item>
-                    </Tier1>
-                </ProductionChain>
-                <Locked />
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Heater</Text>
-                            <Status>Exported</Status>
-                            <ExportCount>1</ExportCount>
-                        </English>
-                    </LocaText>
-                    <LineID>35197</LineID>
-                </Text>
-            </Values>
-        </Asset>
-    </ModOp>
-    <!-- New Triggers (885710x) -->
-    <ModOp Type="addNextSibling" GUID='130218'>
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>9857101</GUID>
-                    <Name>Intermediate Unhide Power Heater</Name>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>112643</Context>
-                                <CounterAmount>500</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>8997110</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>9857102</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>9117547</Asset>
-                                            </Item>
-                                        </UnhideAssets>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>98570102</GUID>
-                    <Name>Intermediate Unlock Power Heater</Name>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition />
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>112643</Context>
-                                <CounterAmount>750</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>8997110</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>9857102</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>9117547</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                </Trigger>
-                <TriggerSetup />
-            </Values>
-        </Asset>
-    </ModOp>
-    <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '117075']">
-        <Item>
-            <Building>9857102</Building>
-        </Item>
-    </ModOp>
-    <ModOp GUID='190611' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-        <Item>
-            <GUID>8997110</GUID>
-        </Item>
-        <Item>
-            <GUID>9117547</GUID>
-        </Item>
-    </ModOp>
-    <ModOp GUID='142309' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
-        <Item>
-            <Building>8997110</Building>
-        </Item>
-        <Item>
-            <Building>9117547</Building>
-        </Item>
-    </ModOp>
-    <!-- Gas Power Plant -->
-    <ModOp>
-        <Asset>
-            <Template>PowerplantBuilding</Template>
-            <Values>
-              <Standard>
-                <GUID>9117547</GUID>
-                <Name>electricity_03 (Gas Power Plant)</Name>
-                <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_gas.png</IconFilename>
-                <ID>ArcticGasPowerPlant</ID>
-                <InfoDescription>117550</InfoDescription>
-              </Standard>
-              <Building>
-                <BuildingCategoryName>11169</BuildingCategoryName>
-                <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                <AssociatedRegions>Arctic</AssociatedRegions>
-              </Building>
-              <Blocking />
-              <Cost>
-                <Costs>
-                  <Item>
-                    <Ingredient>1010017</Ingredient>
-                    <Amount>75000</Amount>
-                  </Item>
-                  <Item>
-                    <Ingredient>1010196</Ingredient>
-                    <Amount>40</Amount>
-                  </Item>
-                  <Item>
-                    <Ingredient>1010205</Ingredient>
-                    <Amount>60</Amount>
-                  </Item>
-                  <Item>
-                    <Ingredient>1010218</Ingredient>
-                    <Amount>60</Amount>
-                  </Item>
-                  <Item>
-                    <Ingredient>1010207</Ingredient>
-                    <Amount>40</Amount>
-                  </Item>
-                  <Item>
-                    <Ingredient>1010202</Ingredient>
-                    <Amount>40</Amount>
-                  </Item>
-                </Costs>
-              </Cost>
-              <Object>
-                <Variations>
-                  <Item>
-                    <Filename>data/dlc03/graphics/buildings/special/electricity_02/electricity_02.cfg</Filename>
-                  </Item>
-                </Variations>
-              </Object>
-              <Mesh />
-              <Selection>
-                <ParticipantMessageArcheType>Arctic_Resident_tier02_atWork</ParticipantMessageArcheType>
-              </Selection>
-              <Text>
-                <LocaText>
-                  <English>
-                    <Text>Gas-Fired Power Plant</Text>
-                    <Status>Exported</Status>
-                    <ExportCount>1</ExportCount>
-                  </English>
-                </LocaText>
-                <LineID>35861</LineID>
-              </Text>
-              <Constructable />
-              <Locked />
-              <SoundEmitter>
-                <ActiveSounds>
-                  <Item>
-                    <Sound>200832</Sound>
-                  </Item>
-                </ActiveSounds>
-                <IncidentSounds>
-                  <InfectedFire>
-                    <Item>
-                      <Sound>214659</Sound>
-                    </Item>
-                  </InfectedFire>
-                </IncidentSounds>
-                <BuildingRepaired>
-                  <Item>
-                    <Sound>203866</Sound>
-                  </Item>
-                </BuildingRepaired>
-              </SoundEmitter>
-              <FeedbackController />
-              <Infolayer />
-              <UpgradeList />
-              <LogisticNode>
-                <TransporterCountMax>1</TransporterCountMax>
-                <PathLayers>Street</PathLayers>
-              </LogisticNode>
-              <AmbientMoodProvider />
-              <Maintenance>
-                <Maintenances>
-                  <Item>
-                    <Product>1010017</Product>
-                    <Amount>1200</Amount>
-                    <InactiveAmount>600</InactiveAmount>
-                  </Item>
-                  <Item>
-                    <Product>112654</Product>
-                    <Amount>150</Amount>
-                    <ShutdownThreshold>0.5</ShutdownThreshold>
-                  </Item>
-                </Maintenances>
-              </Maintenance>
-              <Attackable>
-                <MaximumHitPoints>3500</MaximumHitPoints>
-                <SelfHealPerHealTick>4</SelfHealPerHealTick>
-              </Attackable>
-              <Pausable />
-              <IncidentInfectable>
-                <Infectable>
-                  <Fire>
-                    <Base>1</Base>
-                  </Fire>
-                </Infectable>
-                <Explosion>
-                  <DamageExplosionChance>40</DamageExplosionChance>
-                </Explosion>
-                <IncidentInfectionChanceFactors>
-                  <Fire>
-                    <DensityDistance>15</DensityDistance>
-                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
-                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
-                  </Fire>
-                  <Explosion>
-                    <BaseChance>5</BaseChance>
-                  </Explosion>
-                </IncidentInfectionChanceFactors>
-              </IncidentInfectable>
-              <Powerplant>
-                <ElectricityDistance>42</ElectricityDistance>
-              </Powerplant>
-              <FactoryBase>
-                <FactoryInputs>
-                  <Item>
-                    <Product>112706</Product>
-                    <Amount>1</Amount>
-                    <StorageAmount>10</StorageAmount>
-                  </Item>
-                </FactoryInputs>
-                <CycleTime>45</CycleTime>
-              </FactoryBase>
-              <Culture />
-              <PublicService>
-                <FullSatisfactionDistance>42</FullSatisfactionDistance>
-                <NoSatisfactionDistance>42</NoSatisfactionDistance>
-              </PublicService>
-            </Values>
-          </Asset>
-    </ModOp>
-    <!-- Add Arctic power to chain -->
-    <ModOp GUID='117556' Path="/Values" Type="replace">
-        <ProductionChain>
-            <Building>9117547</Building>
-            <Tier1>
-              <Item>
-                <Building>112690</Building>
-              </Item>
-            </Tier1>
-        </ProductionChain>
-    </ModOp>
-    <!-- Gas Heater -->
-    <ModOp Type="addNextSibling" GUID='114751'>
+        <!-- Gas Heater -->
         <Asset>
             <Template>Heater_Arctic</Template>
             <Values>
@@ -905,14 +590,172 @@
                 </StorageBase>
             </Values>
         </Asset>
+        <!-- Gas Power Plant -->
+        <Asset>
+            <Template>PowerplantBuilding</Template>
+            <Values>
+              <Standard>
+                <GUID>917547</GUID>
+                <Name>electricity_03 (Gas Power Plant)</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_gas.png</IconFilename>
+                <InfoDescription>117550</InfoDescription>
+              </Standard>
+              <Building>
+                <BuildingCategoryName>11169</BuildingCategoryName>
+                <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                <AssociatedRegions>Arctic</AssociatedRegions>
+              </Building>
+              <Blocking />
+              <Cost>
+                <Costs>
+                  <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>75000</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>40</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>60</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010218</Ingredient>
+                    <Amount>60</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010207</Ingredient>
+                    <Amount>40</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010202</Ingredient>
+                    <Amount>40</Amount>
+                  </Item>
+                </Costs>
+              </Cost>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/dlc03/graphics/buildings/special/electricity_02/electricity_02.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <Mesh />
+              <Selection>
+                <ParticipantMessageArcheType>Arctic_Resident_tier02_atWork</ParticipantMessageArcheType>
+              </Selection>
+              <Text>
+                <LocaText>
+                  <English>
+                    <Text>Gas-Fired Power Plant</Text>
+                    <Status>Exported</Status>
+                    <ExportCount>1</ExportCount>
+                  </English>
+                </LocaText>
+                <LineID>35861</LineID>
+              </Text>
+              <Constructable />
+              <Locked />
+              <SoundEmitter>
+                <ActiveSounds>
+                  <Item>
+                    <Sound>200832</Sound>
+                  </Item>
+                </ActiveSounds>
+                <IncidentSounds>
+                  <InfectedFire>
+                    <Item>
+                      <Sound>214659</Sound>
+                    </Item>
+                  </InfectedFire>
+                </IncidentSounds>
+                <BuildingRepaired>
+                  <Item>
+                    <Sound>203866</Sound>
+                  </Item>
+                </BuildingRepaired>
+              </SoundEmitter>
+              <FeedbackController />
+              <Infolayer />
+              <UpgradeList />
+              <LogisticNode>
+                <TransporterCountMax>1</TransporterCountMax>
+                <PathLayers>Street</PathLayers>
+              </LogisticNode>
+              <AmbientMoodProvider />
+              <Maintenance>
+                <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>1200</Amount>
+                    <InactiveAmount>600</InactiveAmount>
+                  </Item>
+                  <Item>
+                    <Product>112654</Product>
+                    <Amount>150</Amount>
+                    <ShutdownThreshold>0.5</ShutdownThreshold>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+              <Attackable>
+                <MaximumHitPoints>3500</MaximumHitPoints>
+                <SelfHealPerHealTick>4</SelfHealPerHealTick>
+              </Attackable>
+              <Pausable />
+              <IncidentInfectable>
+                <Infectable>
+                  <Fire>
+                    <Base>1</Base>
+                  </Fire>
+                </Infectable>
+                <Explosion>
+                  <DamageExplosionChance>40</DamageExplosionChance>
+                </Explosion>
+                <IncidentInfectionChanceFactors>
+                  <Fire>
+                    <DensityDistance>15</DensityDistance>
+                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                  </Fire>
+                  <Explosion>
+                    <BaseChance>5</BaseChance>
+                  </Explosion>
+                </IncidentInfectionChanceFactors>
+              </IncidentInfectable>
+              <Powerplant>
+                <ElectricityDistance>42</ElectricityDistance>
+              </Powerplant>
+              <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>112706</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <CycleTime>45</CycleTime>
+              </FactoryBase>
+              <Culture />
+              <PublicService>
+                <FullSatisfactionDistance>42</FullSatisfactionDistance>
+                <NoSatisfactionDistance>42</NoSatisfactionDistance>
+              </PublicService>
+            </Values>
+        </Asset>
     </ModOp>
+    <!-- Add Arctic power to chain -->
+    <ModOp GUID='117556' Path="/Values/ProductionChain" Type="merge">
+        <Building>917547</Building>
+    </ModOp>
+    <!-- add production chain -->    
     <ModOp GUID='112856' Type="addNextSibling">
         <Asset>
             <Template>ProductionChain</Template>
             <Values>
                 <Standard>
                     <GUID>8857102</GUID>
-                    <Name>arctic heater chain</Name>
+                    <Name>arctic Gas heater chain</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Gas.png</IconFilename>
                 </Standard>
                 <ProductionChain>
@@ -936,15 +779,44 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>9857102</GUID>
+                    <Name>arctic Power heater chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Power.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>917547</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>8997110</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Heater</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>35197</LineID>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
-    <!-- New Triggers (885710x) -->
+    <!-- New Triggers -->
     <ModOp Type="addNextSibling" GUID='130218'>
         <Asset>
             <Template>Trigger</Template>
             <Values>
                 <Standard>
                     <GUID>8857101</GUID>
-                    <Name>Intermediate Unhide Gas Heater</Name>
+                    <Name>Intermediate Unhide Heaters</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -966,6 +838,15 @@
                                     <Action />
                                     <ActionUnlockAsset>
                                         <UnhideAssets>
+                                            <Item>
+                                                <Asset>8997110</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>9857102</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>917547</Asset>
+                                            </Item>
                                             <Item>
                                                 <Asset>8857100</Asset>
                                             </Item>
@@ -1010,6 +891,15 @@
                                     <ActionUnlockAsset>
                                         <UnlockAssets>
                                             <Item>
+                                                <Asset>8997110</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>9857102</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>917547</Asset>
+                                            </Item>
+                                            <Item>
                                                 <Asset>8857100</Asset>
                                             </Item>
                                             <Item>
@@ -1028,15 +918,30 @@
     </ModOp>
     <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '117075']">
         <Item>
+            <Building>9857102</Building>
+        </Item>
+        <Item>
             <Building>8857102</Building>
         </Item>
     </ModOp>
     <ModOp GUID='190611' Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
+            <GUID>8997110</GUID>
+        </Item>
+        <Item>
+            <GUID>917547</GUID>
+        </Item>
+        <Item>
             <GUID>8857100</GUID>
         </Item>
     </ModOp>
     <ModOp GUID='142309' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>8997110</Building>
+        </Item>
+        <Item>
+            <Building>917547</Building>
+        </Item>
         <Item>
             <Building>8857100</Building>
         </Item>
@@ -1053,7 +958,7 @@
             <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>
         </Standard>
     </ModOp>
-    <!-- Coal Heater edit image -->
+    <!-- Coal Heater edit production chain image -->
     <ModOp GUID='112856' Path="/Values" Type="merge">
         <Standard>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>

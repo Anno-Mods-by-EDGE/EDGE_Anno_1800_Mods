@@ -101,31 +101,31 @@
                 <FactoryBase>
                     <FactoryInputs>
                         <Item>
-                            <Product>1210001</Product>
+                            <Product>1210001</Product><!-- Begonias -->
                             <Amount>1</Amount>
                             <StorageAmount>5</StorageAmount>
                         </Item>
                         <Item>
-                            <Product>1210002</Product>
+                            <Product>1210002</Product><!-- Fertilized Dirt -->
                             <Amount>3</Amount>
                             <StorageAmount>18</StorageAmount>
                         </Item>
                         <Item>
-                            <Product>114364</Product>
+                            <Product>114364</Product><!-- Supertunia/Hibiscus -->
                             <Amount>6</Amount>
                             <StorageAmount>30</StorageAmount>
                         </Item>
                         <Item>
-                            <Product>836</Product>
+                            <Product>836</Product><!-- Bauxite -->
                             <Amount>1</Amount>
                             <StorageAmount>5</StorageAmount>
                         </Item>
                     </FactoryInputs>
                     <FactoryOutputs>
                         <Item>
-                            <Product>1010206</Product>
-                            <Amount>1</Amount>
-                            <StorageAmount>4</StorageAmount>
+                            <Product>1010206</Product><!-- Potted Flowers -->
+                            <Amount>5</Amount>
+                            <StorageAmount>25</StorageAmount>
                         </Item>
                     </FactoryOutputs>
                 </FactoryBase>

@@ -61,7 +61,7 @@
                                         <Index>1</Index>
                                     </Entry>
                                     <Entry>
-                                        <TemplateName>Market_Arctic  </TemplateName>
+                                        <TemplateName>Market_Arctic</TemplateName>
                                         <Index>1</Index>
                                     </Entry>
                                     <Entry>
@@ -303,7 +303,7 @@
                     <Building>8997110</Building>
                     <Tier1>
                         <Item>
-                            <Building>117547</Building>
+                            <Building>9117547</Building>
                         </Item>
                     </Tier1>
                 </ProductionChain>
@@ -356,6 +356,9 @@
                                             <Item>
                                                 <Asset>9857102</Asset>
                                             </Item>
+                                            <Item>
+                                                <Asset>9117547</Asset>
+                                            </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>
                                 </Values>
@@ -399,6 +402,9 @@
                                             <Item>
                                                 <Asset>9857102</Asset>
                                             </Item>
+                                            <Item>
+                                                <Asset>9117547</Asset>
+                                            </Item>
                                         </UnlockAssets>
                                     </ActionUnlockAsset>
                                 </Values>
@@ -419,15 +425,184 @@
         <Item>
             <GUID>8997110</GUID>
         </Item>
+        <Item>
+            <GUID>9117547</GUID>
+        </Item>
     </ModOp>
     <ModOp GUID='142309' Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>8997110</Building>
         </Item>
+        <Item>
+            <Building>9117547</Building>
+        </Item>
     </ModOp>
     <!-- Gas Power Plant -->
-    <ModOp GUID='117547' Path="/Values/Building" Type="replace">
-        <AssociatedRegions>Arctic, Moderate</AssociatedRegions>
+    <ModOp>
+        <Asset>
+            <Template>PowerplantBuilding</Template>
+            <Values>
+              <Standard>
+                <GUID>9117547</GUID>
+                <Name>electricity_03 (Gas Power Plant)</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_gas.png</IconFilename>
+                <ID>ArcticGasPowerPlant</ID>
+                <InfoDescription>117550</InfoDescription>
+              </Standard>
+              <Building>
+                <BuildingCategoryName>11169</BuildingCategoryName>
+                <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                <AssociatedRegions>Arctic</AssociatedRegions>
+              </Building>
+              <Blocking />
+              <Cost>
+                <Costs>
+                  <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>75000</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>40</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>60</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010218</Ingredient>
+                    <Amount>60</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010207</Ingredient>
+                    <Amount>40</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010202</Ingredient>
+                    <Amount>40</Amount>
+                  </Item>
+                </Costs>
+              </Cost>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/dlc03/graphics/buildings/special/electricity_02/electricity_02.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <Mesh />
+              <Selection>
+                <ParticipantMessageArcheType>Arctic_Resident_tier02_atWork</ParticipantMessageArcheType>
+              </Selection>
+              <Text>
+                <LocaText>
+                  <English>
+                    <Text>Gas-Fired Power Plant</Text>
+                    <Status>Exported</Status>
+                    <ExportCount>1</ExportCount>
+                  </English>
+                </LocaText>
+                <LineID>35861</LineID>
+              </Text>
+              <Constructable />
+              <Locked />
+              <SoundEmitter>
+                <ActiveSounds>
+                  <Item>
+                    <Sound>200832</Sound>
+                  </Item>
+                </ActiveSounds>
+                <IncidentSounds>
+                  <InfectedFire>
+                    <Item>
+                      <Sound>214659</Sound>
+                    </Item>
+                  </InfectedFire>
+                </IncidentSounds>
+                <BuildingRepaired>
+                  <Item>
+                    <Sound>203866</Sound>
+                  </Item>
+                </BuildingRepaired>
+              </SoundEmitter>
+              <FeedbackController />
+              <Infolayer />
+              <UpgradeList />
+              <LogisticNode>
+                <TransporterCountMax>1</TransporterCountMax>
+                <PathLayers>Street</PathLayers>
+              </LogisticNode>
+              <AmbientMoodProvider />
+              <Maintenance>
+                <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>1200</Amount>
+                    <InactiveAmount>600</InactiveAmount>
+                  </Item>
+                  <Item>
+                    <Product>112654</Product>
+                    <Amount>150</Amount>
+                    <ShutdownThreshold>0.5</ShutdownThreshold>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+              <Attackable>
+                <MaximumHitPoints>3500</MaximumHitPoints>
+                <SelfHealPerHealTick>4</SelfHealPerHealTick>
+              </Attackable>
+              <Pausable />
+              <IncidentInfectable>
+                <Infectable>
+                  <Fire>
+                    <Base>1</Base>
+                  </Fire>
+                </Infectable>
+                <Explosion>
+                  <DamageExplosionChance>40</DamageExplosionChance>
+                </Explosion>
+                <IncidentInfectionChanceFactors>
+                  <Fire>
+                    <DensityDistance>15</DensityDistance>
+                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                  </Fire>
+                  <Explosion>
+                    <BaseChance>5</BaseChance>
+                  </Explosion>
+                </IncidentInfectionChanceFactors>
+              </IncidentInfectable>
+              <Powerplant>
+                <ElectricityDistance>42</ElectricityDistance>
+              </Powerplant>
+              <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>112706</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <CycleTime>45</CycleTime>
+              </FactoryBase>
+              <Culture />
+              <PublicService>
+                <FullSatisfactionDistance>42</FullSatisfactionDistance>
+                <NoSatisfactionDistance>42</NoSatisfactionDistance>
+              </PublicService>
+            </Values>
+          </Asset>
+    </ModOp>
+    <!-- Add Arctic power to chain -->
+    <ModOp GUID='117556' Path="/Values" Type="replace">
+        <ProductionChain>
+            <Building>9117547</Building>
+            <Tier1>
+              <Item>
+                <Building>112690</Building>
+              </Item>
+            </Tier1>
+        </ProductionChain>
     </ModOp>
     <!-- Gas Heater -->
     <ModOp Type="addNextSibling" GUID='114751'>

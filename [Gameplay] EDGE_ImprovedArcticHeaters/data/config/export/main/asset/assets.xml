@@ -444,20 +444,9 @@
     <ModOp GUID='114751' Path="/Asset/Values/FactoryBase" Type="add">
         <CycleTime>60</CycleTime>
     </ModOp>
-    <!-- Coal Heater -->
     <ModOp GUID='114751' Path="/Values" Type="merge">
         <Standard>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_heating_Coal.png</IconFilename>
         </Standard>
-    </ModOp>
-    <ModOp GUID='114751' Path="/Values" Type="merge">
-        <HeatProvider>
-            <HeatRange>25</HeatRange>
-        </HeatProvider>
-    </ModOp>
-    <ModOp GUID='114751' Path="/Values" Type="merge">
-        <FactoryBase>
-            <CycleTime>60</CycleTime>
-        </FactoryBase>
     </ModOp>
 </ModOps>

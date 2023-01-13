@@ -11,12 +11,16 @@
     </Text>
   <!-- Power Heater -->
     <Text>
-      <GUID>8997110</GUID>
+      <GUID>7997110</GUID>
      <Text>Powered Heater</Text>
    </Text>
    <Text>
-     <GUID>9857102</GUID>
+     <GUID>7857102</GUID>
      <Text>Powered Heating</Text>
+   </Text>
+   <Text>
+     <GUID>7917547</GUID>
+     <Text>Gas Power Plant</Text>
    </Text>
   </ModOp>
 </ModOps>

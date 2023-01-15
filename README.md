@@ -17,3 +17,5 @@ this is as safety for us and you as creators, to be able to keep our content saf
 
 thank you for reading this and enjoy the content!
 EDGE Gaming
+
+If you have any questions or anything you need feel free to [email](mats@edgegaming.no) us at mats@edgegaming.no

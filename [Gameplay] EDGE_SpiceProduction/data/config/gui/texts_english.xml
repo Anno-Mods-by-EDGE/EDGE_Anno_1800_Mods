@@ -1,0 +1,61 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <!-- Box of Assorted Exotic Spices -->
+    <Text>
+      <GUID>1210000</GUID>
+      <Text>Exotic Spice Assembly Line</Text>
+    </Text>
+    <Text>
+      <GUID>12100000</GUID>
+      <Text>Box of Assorted Exotic Spices</Text>
+    </Text>
+    <Text>
+      <GUID>121000000</GUID>
+      <Text>A neatly packed box, filles with exotic spices</Text>
+    </Text>
+    <!-- Spice Boxes -->
+    <Text>
+      <GUID>1210001</GUID>
+      <Text>Spice Box Factory</Text>
+    </Text>
+    <Text>
+      <GUID>12100001</GUID>
+     <Text>Spice Boxes</Text>
+   </Text>
+   <Text>
+     <GUID>121000001</GUID>
+     <Text>Shiny metal containers</Text>
+   </Text>
+   <!-- Assorted Spices -->
+    <Text>
+      <GUID>1210002</GUID>
+      <Text>Spice Factory</Text>
+    </Text>
+   <Text>
+     <GUID>12100002</GUID>
+     <Text>Assorted Spices</Text>
+   </Text>
+   <Text>
+     <GUID>121000002</GUID>
+     <Text>Handful of exotic spices</Text>
+   </Text>
+   <!-- Thyme -->
+    <Text>
+      <GUID>1210003</GUID>
+      <Text>Thyme Gatherer</Text>
+    </Text>
+   <Text>
+     <GUID>12100003</GUID>
+     <Text>Thyme</Text>
+   </Text>
+   <Text>
+     <GUID>121000003</GUID>
+     <Text>Handful of Thyme</Text>
+   </Text>
+  <!-- Chain -->
+   <Text>
+     <GUID>1210004</GUID>
+     <Text>Assorted Exotic Spices</Text>
+   </Text>
+ </ModOp>
+</ModOps>

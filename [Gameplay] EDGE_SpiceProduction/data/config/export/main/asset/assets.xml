@@ -1,0 +1,1269 @@
+<ModOps>
+    <!-- Buildings -->
+    <ModOp Type="addNextSibling" GUID='114751'>
+        <!-- Spice Assembly -->
+        <Asset>
+            <Template>FactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1210000</GUID>
+                    <Name>Exotic Spice Assembly Line</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_BoxOfAssortedSpices.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <BlockWater>1</BlockWater>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc12/graphics/buildings/production/sewing_machines/sewing_machines_workshop.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Exotic Spice Assembly Line</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60132</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>24963</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200802</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>201625</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>12100001</Product><!-- Spice Boxes -->
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>12100002</Product><!-- Assorted Spices -->
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>12100000</Product><!-- Box of Assorted Spices -->
+                            <Amount>5</Amount>
+                            <StorageAmount>25</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                </FactoryBase>
+                <LogisticNode />
+                <AmbientMoodProvider>
+                    <Murmur>Factory</Murmur>
+                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>500</Amount>
+                            <InactiveAmount>250</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010116</Product>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable />
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
+            </Values>
+        </Asset>
+        <!-- Spice Box Factory -->
+        <Asset>
+          <Template>FactoryBuilding7</Template>
+          <Values>
+            <Standard>
+              <GUID>1210001</GUID>
+              <Name>food_colony01_04 (Spice Box Factory)</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/icon_SpiceBoxes.png</IconFilename>
+            </Standard>
+            <Building>
+              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+              <AssociatedRegions>Moderate</AssociatedRegions>
+            </Building>
+            <Blocking />
+            <Cost>
+              <Costs>
+                <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>500</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010196</Ingredient>
+                  <Amount>2</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010205</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010218</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010207</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010202</Ingredient>
+                </Item>
+              </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/graphics/buildings/production/food_colony01_04/food_colony01_04.cfg</Filename>
+                </Item>
+              </Variations>
+              <Skins>
+                <DefaultSkinDescription>23853</DefaultSkinDescription>
+              </Skins>
+            </Object>
+            <Mesh />
+            <Selection>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList />
+                </Values>
+              </OnSelection>
+              <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+              <Colors>
+                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+              </Colors>
+            </Selection>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Spice Box Factory</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>21449</LineID>
+            </Text>
+            <Constructable />
+            <Locked />
+            <SoundEmitter>
+              <ActiveSounds>
+                <Item>
+                  <Sound>200809</Sound>
+                </Item>
+                <Item>
+                  <Sound>200666</Sound>
+                </Item>
+              </ActiveSounds>
+              <IncidentSounds>
+                <InfectedFire>
+                  <Item>
+                    <Sound>214659</Sound>
+                  </Item>
+                </InfectedFire>
+              </IncidentSounds>
+            </SoundEmitter>
+            <FeedbackController />
+            <Infolayer />
+            <UpgradeList />
+            <Factory7 />
+            <FactoryBase>
+              <FactoryInputs>
+                <Item>
+                    <Product>836</Product><!-- Bauxite -->
+                    <Amount>6</Amount>
+                    <StorageAmount>30</StorageAmount>
+                </Item>
+              </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                    <Product>12100001</Product><!-- Spice Boxes -->
+                    <Amount>1</Amount>
+                    <StorageAmount>30</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <IsMainFactory>1</IsMainFactory>
+            </FactoryBase>
+            <LogisticNode />
+            <AmbientMoodProvider>
+              <DynamicEnvironmentType>None</DynamicEnvironmentType>
+            </AmbientMoodProvider>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010017</Product>
+                  <Amount>200</Amount>
+                  <InactiveAmount>100</InactiveAmount>
+                </Item>
+                <Item>
+                  <Product>1010115</Product>
+                  <Amount>100</Amount>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+            <Attackable>
+              <AttackableType>IslandBuilding</AttackableType>
+              <MaximumHitPoints>2000</MaximumHitPoints>
+              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+            </Attackable>
+            <Pausable />
+            <IncidentInfectable>
+              <Explosion>
+                <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+              </Explosion>
+              <IncidentInfectionChanceFactors>
+                <Fire>
+                  <DensityDistance>20</DensityDistance>
+                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                </Fire>
+              </IncidentInfectionChanceFactors>
+            </IncidentInfectable>
+            <Industrializable />
+            <Culture>
+              <CultureType>Culture</CultureType>
+            </Culture>
+            <QuestObject />
+            <Electrifiable />
+            <EcoSystemProvider />
+          </Values>
+        </Asset>
+        <!-- Spice Factory -->
+        <Asset>
+          <Template>FactoryBuilding7</Template>
+          <Values>
+            <Standard>
+              <GUID>1210002</GUID>
+              <Name>food_colony01_03 (Spice Factory)</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/icon_AssortedSpices.png</IconFilename>
+            </Standard>
+            <Building>
+              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+              <AssociatedRegions>Moderate</AssociatedRegions>
+            </Building>
+            <Blocking />
+            <Cost>
+              <Costs>
+                <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>9000</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010196</Ingredient>
+                  <Amount>5</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010205</Ingredient>
+                  <Amount>3</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010218</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010207</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010202</Ingredient>
+                </Item>
+              </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/graphics/buildings/production/food_colony01_03/food_colony01_03.cfg</Filename>
+                </Item>
+              </Variations>
+              <Skins>
+                <DefaultSkinDescription>23853</DefaultSkinDescription>
+              </Skins>
+            </Object>
+            <Mesh />
+            <Selection>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList />
+                </Values>
+              </OnSelection>
+              <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+              <Colors>
+                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+              </Colors>
+            </Selection>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Spice Roaster</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>13046</LineID>
+            </Text>
+            <Constructable />
+            <Locked />
+            <SoundEmitter>
+              <ActiveSounds>
+                <Item>
+                  <Sound>200809</Sound>
+                </Item>
+                <Item>
+                  <Sound>200662</Sound>
+                </Item>
+              </ActiveSounds>
+              <IncidentSounds>
+                <InfectedFire>
+                  <Item>
+                    <Sound>214659</Sound>
+                  </Item>
+                </InfectedFire>
+              </IncidentSounds>
+            </SoundEmitter>
+            <FeedbackController />
+            <Infolayer />
+            <UpgradeList />
+            <Factory7 />
+            <FactoryBase>
+              <FactoryInputs>
+                <Item>
+                  <Product>114369</Product><!-- Spices -->
+                  <Amount>3</Amount>
+                  <StorageAmount>30</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>5383</Product><!-- Herbs -->
+                  <Amount>3</Amount>
+                  <StorageAmount>30</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>1010198</Product><!-- Red Peppers -->
+                  <Amount>3</Amount>
+                  <StorageAmount>30</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>12100003</Product><!-- Thyme -->
+                  <Amount>6</Amount>
+                  <StorageAmount>30</StorageAmount>
+                </Item>
+              </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                  <Product>12100002</Product><!-- Assorted Spices -->
+                  <Amount>1</Amount>
+                  <StorageAmount>5</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <IsMainFactory>1</IsMainFactory>
+            </FactoryBase>
+            <LogisticNode />
+            <AmbientMoodProvider>
+              <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+            </AmbientMoodProvider>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010017</Product>
+                  <Amount>150</Amount>
+                  <InactiveAmount>75</InactiveAmount>
+                </Item>
+                <Item>
+                  <Product>1010115</Product>
+                  <Amount>100</Amount>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+            <Attackable>
+              <AttackableType>IslandBuilding</AttackableType>
+              <MaximumHitPoints>3750</MaximumHitPoints>
+              <SelfHealPerHealTick>4</SelfHealPerHealTick>
+            </Attackable>
+            <Pausable />
+            <IncidentInfectable>
+              <Explosion>
+                <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+              </Explosion>
+              <IncidentInfectionChanceFactors>
+                <Fire>
+                  <DensityDistance>20</DensityDistance>
+                  <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                  <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                </Fire>
+              </IncidentInfectionChanceFactors>
+            </IncidentInfectable>
+            <Industrializable />
+            <Culture>
+              <CultureType>Culture</CultureType>
+            </Culture>
+            <QuestObject />
+            <Electrifiable />
+            <EcoSystemProvider />
+          </Values>
+        </Asset>
+        <!-- Thyme Gatherer -->
+        <Asset>
+          <Template>FreeAreaBuilding_Arctic</Template>
+          <Values>
+            <Standard>
+              <GUID>1210003</GUID>
+              <Name>agriculture_arctic_04 (Thyme Gatherer)</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/icon_Thyme.png</IconFilename>
+            </Standard>
+            <Building />
+            <Blocking />
+            <Cost>
+              <Costs>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding_Arctic</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Amount>2000</Amount>
+                </Item>
+                <Item>
+                  <VectorElement>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding</TemplateName>
+                        <Index>1</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Ingredient>1010196</Ingredient>
+                  <Amount>5</Amount>
+                </Item>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>2</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding</TemplateName>
+                        <Index>2</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding_Arctic</TemplateName>
+                        <Index>2</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                </Item>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>3</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding</TemplateName>
+                        <Index>3</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding_Arctic</TemplateName>
+                        <Index>3</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                </Item>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>4</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding</TemplateName>
+                        <Index>4</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding_Arctic</TemplateName>
+                        <Index>4</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                </Item>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>5</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding</TemplateName>
+                        <Index>5</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>FreeAreaBuilding_Arctic</TemplateName>
+                        <Index>5</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                </Item>
+              </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/dlc03/graphics/buildings/production/production_colony03_17/production_colony03_17.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Mesh />
+            <Selection>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList />
+                </Values>
+              </OnSelection>
+              <ParticipantMessageArcheType>Arctic_Resident_tier01_atWork</ParticipantMessageArcheType>
+            </Selection>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Thyme Gatherer</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>35075</LineID>
+            </Text>
+            <Constructable />
+            <Locked />
+            <SoundEmitter>
+              <ActiveSounds>
+                <Item>
+                  <Sound>247118</Sound>
+                </Item>
+                <Item>
+                  <Sound>236986</Sound>
+                </Item>
+              </ActiveSounds>
+              <IncidentSounds>
+                <InfectedFire>
+                  <Item>
+                    <Sound>214659</Sound>
+                  </Item>
+                </InfectedFire>
+                <ExplosionOneShots>
+                  <Item>
+                    <Sound>203849</Sound>
+                  </Item>
+                </ExplosionOneShots>
+              </IncidentSounds>
+            </SoundEmitter>
+            <FeedbackController />
+            <Infolayer />
+            <UpgradeList />
+            <Factory7>
+              <NeededFertility>114236</NeededFertility>
+            </Factory7>
+            <FactoryBase>
+              <FactoryInputs>
+                <Item>
+                  <Product>1955</Product>
+                  <StorageAmount>5</StorageAmount>
+                </Item>
+              </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                  <Product>12100003</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>5</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>10</CycleTime>
+              <IsMainFactory>1</IsMainFactory>
+            </FactoryBase>
+            <LogisticNode />
+            <AmbientMoodProvider>
+              <Murmur>Arctic_Farm</Murmur>
+              <GlacierMurmur>Arctic_Farm</GlacierMurmur>
+            </AmbientMoodProvider>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010017</Product>
+                  <Amount>90</Amount>
+                  <InactiveAmount>45</InactiveAmount>
+                </Item>
+                <Item>
+                  <Product>112653</Product>
+                  <Amount>25</Amount>
+                  <ShutdownThreshold>0.2</ShutdownThreshold>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+            <Attackable>
+              <AttackableType>IslandBuilding</AttackableType>
+              <MaximumHitPoints>2000</MaximumHitPoints>
+            </Attackable>
+            <FreeAreaProductivity>
+              <InfluenceRadius>13</InfluenceRadius>
+              <FreeAreaType>Hunter2</FreeAreaType>
+              <MaxWorkerAmount>2</MaxWorkerAmount>
+              <AdditionalWorkerForForestation>6</AdditionalWorkerForForestation>
+              <WorkerPause>10000</WorkerPause>
+              <InitializeForestMinTreeAreaPercent>5</InitializeForestMinTreeAreaPercent>
+              <CutTree>0</CutTree>
+            </FreeAreaProductivity>
+            <Pausable />
+            <IncidentInfectable>
+              <Infectable>
+                <Riot>
+                  <Base>0</Base>
+                  <Escalated>0</Escalated>
+                </Riot>
+                <Illness>
+                  <Escalated>0</Escalated>
+                </Illness>
+                <Explosion>
+                  <Base>0</Base>
+                  <Escalated>0</Escalated>
+                </Explosion>
+              </Infectable>
+              <IncidentInfectionChanceFactors>
+                <Riot>
+                  <FactoryOvertimeFactor>0</FactoryOvertimeFactor>
+                  <FactoryUndertimeFactor>0</FactoryUndertimeFactor>
+                  <FactoryHappinessFactor>0</FactoryHappinessFactor>
+                  <ResidenceHappinessFactor>0</ResidenceHappinessFactor>
+                  <HappinessMin>0</HappinessMin>
+                  <HappinessMax>0</HappinessMax>
+                </Riot>
+                <Illness>
+                  <ResidenceSatisfactionFactor>0</ResidenceSatisfactionFactor>
+                  <HappinessMin>0</HappinessMin>
+                  <HappinessMax>0</HappinessMax>
+                  <SatisfactionThreshold>0</SatisfactionThreshold>
+                </Illness>
+                <Explosion>
+                  <HappinessMin>0</HappinessMin>
+                  <HappinessMax>0</HappinessMax>
+                  <SatisfactionThreshold>0</SatisfactionThreshold>
+                </Explosion>
+              </IncidentInfectionChanceFactors>
+            </IncidentInfectable>
+            <Culture />
+            <Heated />
+          </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add Products -->
+    <ModOp GUID='2125594694' Path="/Groups/Group/Groups" Type="add">
+        <Group>
+          <!-- Box of Assorted Exotic Spices -->
+          <Asset>
+            <Template>Product</Template>
+            <Values>
+              <Standard>
+                <GUID>12100000</GUID>
+                <Name>Box of Assorted Exotic Spices</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_BoxOfAssortedSpices.png</IconFilename>
+                <InfoDescription>121000000</InfoDescription>
+              </Standard>
+              <Text>
+                <LocaText>
+                  <English>
+                    <Text>Box of Assorted Exotic Spices</Text>
+                    <Status>Exported</Status>
+                  </English>
+                </LocaText>
+                <LineID>5349</LineID>
+              </Text>
+              <Locked />
+              <Product>
+                <StorageLevel>Building</StorageLevel>
+                <ProductCategory>11704</ProductCategory>
+                <BasePrice>2690</BasePrice>
+                <CivLevel>3</CivLevel>
+                <AssociatedRegion>Moderate;Arctic;Africa;Colony01</AssociatedRegion>
+                <ProductionRegions>
+                  <Item>
+                    <RegionType>Moderate</RegionType>
+                  </Item>
+                </ProductionRegions>
+              </Product>
+              <ExpeditionAttribute>
+                <BaseMorale>25</BaseMorale>
+                <ExpeditionAttributes>
+                  <Item>
+                    <Attribute>Faith</Attribute>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Attribute>Medicine</Attribute>
+                    <Amount>10</Amount>
+                  </Item>
+                  <Item>
+                    <Attribute>Crafting</Attribute>
+                    <Amount>20</Amount>
+                  </Item>
+                </ExpeditionAttributes>
+                <FluffText>12819</FluffText>
+              </ExpeditionAttribute>
+            </Values>
+          </Asset>
+          <!-- Spice Boxes -->
+          <Asset>
+            <Template>Product</Template>
+            <Values>
+              <Standard>
+                <GUID>12100001</GUID>
+                <Name>Spice Boxes</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_SpiceBoxes.png</IconFilename>
+                <InfoDescription>121000001</InfoDescription>
+              </Standard>
+              <Text>
+                <LocaText>
+                  <English>
+                    <Text>Spice Boxes</Text>
+                    <Status>Exported</Status>
+                  </English>
+                </LocaText>
+                <LineID>5349</LineID>
+              </Text>
+              <Locked />
+              <Product>
+                <StorageLevel>Building</StorageLevel>
+                <ProductCategory>11703</ProductCategory>
+                <BasePrice>298</BasePrice>
+                <CivLevel>3</CivLevel>
+                <AssociatedRegion>Moderate;Arctic;Africa;Colony01</AssociatedRegion>
+                <ProductionRegions>
+                  <Item>
+                    <RegionType>Moderate</RegionType>
+                  </Item>
+                </ProductionRegions>
+              </Product>
+              <ExpeditionAttribute>
+                <BaseMorale>0</BaseMorale>
+                <ExpeditionAttributes>
+                  <Item>
+                    <Attribute>Faith</Attribute>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Attribute>Crafting</Attribute>
+                    <Amount>20</Amount>
+                  </Item>
+                </ExpeditionAttributes>
+                <FluffText>12819</FluffText>
+              </ExpeditionAttribute>
+            </Values>
+          </Asset>
+          <!-- Assorted Spices -->
+          <Asset>
+            <Template>Product</Template>
+            <Values>
+              <Standard>
+                <GUID>12100002</GUID>
+                <Name>Assorted Spices</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_AssortedSpices.png</IconFilename>
+                <InfoDescription>121000002</InfoDescription>
+              </Standard>
+              <Text>
+                <LocaText>
+                  <English>
+                    <Text>Assorted Spices</Text>
+                    <Status>Exported</Status>
+                  </English>
+                </LocaText>
+                <LineID>5349</LineID>
+              </Text>
+              <Locked />
+              <Product>
+                <StorageLevel>Building</StorageLevel>
+                <ProductCategory>11703</ProductCategory>
+                <BasePrice>598</BasePrice>
+                <CivLevel>3</CivLevel>
+                <AssociatedRegion>Moderate;Arctic;Africa;Colony01</AssociatedRegion>
+                <ProductionRegions>
+                  <Item>
+                    <RegionType>Moderate</RegionType>
+                  </Item>
+                </ProductionRegions>
+              </Product>
+              <ExpeditionAttribute>
+                <BaseMorale>10</BaseMorale>
+                <ExpeditionAttributes>
+                  <Item>
+                    <Attribute>Faith</Attribute>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Attribute>Medicine</Attribute>
+                    <Amount>10</Amount>
+                  </Item>
+                </ExpeditionAttributes>
+                <FluffText>12819</FluffText>
+              </ExpeditionAttribute>
+            </Values>
+          </Asset>
+          <!-- Thyme -->
+          <Asset>
+            <Template>Product</Template>
+            <Values>
+              <Standard>
+                <GUID>12100003</GUID>
+                <Name>Thyme</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_Thyme.png</IconFilename>
+                <InfoDescription>121000003</InfoDescription>
+              </Standard>
+              <Text>
+                <LocaText>
+                  <English>
+                    <Text>Thyme</Text>
+                    <Status>Exported</Status>
+                  </English>
+                </LocaText>
+                <LineID>5349</LineID>
+              </Text>
+              <Locked />
+              <Product>
+                <StorageLevel>Building</StorageLevel>
+                <ProductCategory>11703</ProductCategory>
+                <BasePrice>149</BasePrice>
+                <CivLevel>3</CivLevel>
+                <AssociatedRegion>Moderate;Arctic;Africa;Colony01</AssociatedRegion>
+                <ProductionRegions>
+                  <Item>
+                    <RegionType>Arctic</RegionType>
+                  </Item>
+                </ProductionRegions>
+              </Product>
+              <ExpeditionAttribute>
+                <BaseMorale>10</BaseMorale>
+                <ExpeditionAttributes>
+                  <Item>
+                    <Attribute>Faith</Attribute>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Attribute>Medicine</Attribute>
+                    <Amount>10</Amount>
+                  </Item>
+                </ExpeditionAttributes>
+                <FluffText>12819</FluffText>
+              </ExpeditionAttribute>
+            </Values>
+          </Asset>
+        </Group>
+    </ModOp>
+    <!-- Add to Products Storage List -->
+    <ModOp GUID='120055' Type="merge" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>12100000</Product><!-- Box of Assorted Exotic Spices -->
+        </Item>
+        <Item>
+            <Product>12100001</Product><!-- Spice Boxes -->
+        </Item>
+        <Item>
+            <Product>12100002</Product><!-- Assorted Spices -->
+        </Item>
+        <Item>
+            <Product>12100003</Product><!-- Thyme -->
+        </Item>
+    </ModOp>
+    <!-- Add to Output Product to Happyness -->
+    <ModOp GUID='15000000,1500001,1500002,15000003,15000004,5403,112643,118745,601379,114330' Type="merge" Path="/Values/PopulationLevel7/PopulationInputs">
+        <Item>
+            <Product>12100000</Product>
+            <Amount>0.0001666667</Amount>
+            <SupplyWeight>3</SupplyWeight>
+            <MoneyValue>12</MoneyValue>
+            <AdditionalGlobalUnlockRequirement>
+              <Population>15000002</Population>
+              <MinPopulationAmount>300</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+            <IsBonusNeed>1</IsBonusNeed>
+        </Item>
+    </ModOp>
+    <ModOp GUID='112642' Type="merge" Path="/Values/PopulationLevel7/PopulationInputs">
+        <Item>
+            <Product>12100003</Product>
+            <Amount>0.0001666667</Amount>
+            <SupplyWeight>3</SupplyWeight>
+            <MoneyValue>12</MoneyValue>
+            <AdditionalGlobalUnlockRequirement>
+              <Population>15000002</Population>
+              <MinPopulationAmount>300</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+            <IsBonusNeed>1</IsBonusNeed>
+        </Item>
+    </ModOp>
+
+    <!-- add production chains -->
+    <ModOp GUID='500003' Type="addNextSibling">
+        <!-- Spice Production Chain -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1210004</GUID>
+                    <Name>Spice Production Chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_BoxOfAssortedSpices.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1210000</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1210001</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1308</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1210002</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>114452</Building>
+                                </Item>
+                                <Item>
+                                    <Building>5463</Building>
+                                </Item>
+                                <Item>
+                                    <Building>100654</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1210003</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Assorted Exotic Spices</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>35197</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- add New Triggers -->
+    <ModOp GUID='130252' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnhideAssets" Type="merge">
+        <!-- Unhide Assets -->
+        <Item>
+            <Asset>1210004</Asset>
+        </Item>
+        <Item>
+            <Asset>1210000</Asset>
+        </Item>
+        <Item>
+            <Asset>1210001</Asset>
+        </Item>
+        <Item>
+            <Asset>1210002</Asset>
+        </Item>
+        <Item>
+            <Asset>1210003</Asset>
+        </Item>
+    </ModOp>
+    <!-- Unlock Assets -->
+    <ModOp GUID='130254' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
+        <!-- Unlock Chains -->
+        <Item>
+            <Asset>1210004</Asset>
+        </Item>
+    </ModOp>
+    <ModOp GUID='130255' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
+        <!-- Unlock Buildings -->
+        <Item>
+            <Asset>1210000</Asset>
+        </Item>
+        <Item>
+            <Asset>1210001</Asset>
+        </Item>
+        <Item>
+            <Asset>1210002</Asset>
+        </Item>
+        <Item>
+            <Asset>1210003</Asset>
+        </Item>
+    </ModOp>
+    <!-- Add to categories -->
+    <ModOp Type="addNextSibling" GUID='500945,25000191' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500003']">
+        <!-- Add Spice Chain -->
+        <Item>
+            <Building>1210004</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '112710']">
+        <!-- Add Spice Chain Arctic -->
+        <Item>
+            <Building>1210004</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='25000193' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500904']">
+        <!-- Add Spice Chain SouthAmerica -->
+        <Item>
+            <Building>1210004</Building>
+        </Item>
+    </ModOp>    
+    <ModOp Type="addNextSibling" GUID='114553' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '114565']">
+        <!-- Add Spice Chain Africa -->
+        <Item>
+            <Building>1210004</Building>
+        </Item>
+    </ModOp>
+    <!-- Add to Boostable Factories -->
+    <ModOp GUID='25000087' Type="merge" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1210000</Factory>
+        </Item>
+        <Item>
+            <Factory>1210001</Factory>
+        </Item>
+        <Item>
+            <Factory>1210002</Factory>
+        </Item>
+    </ModOp>
+    <!-- Add to Artisan Production Buildings -->
+    <ModOp GUID='25000087' Type="merge" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1210000</Factory>
+        </Item>
+    </ModOp>
+    <!-- Add to Worker Production Buildings -->
+    <ModOp GUID='25000087' Type="merge" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1210001</Factory>
+        </Item>
+        <Item>
+            <Factory>1210002</Factory>
+        </Item>
+    </ModOp>
+    <!-- Add to Assetpool -->
+    <ModOp GUID='140032' Type="merge" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1210000</Asset>
+        </Item>
+        <Item>
+            <Asset>1210001</Asset>
+        </Item>
+        <Item>
+            <Asset>1210002</Asset>
+        </Item>
+        <Item>
+            <Asset>1210003</Asset>
+        </Item>
+        <Item>
+            <Asset>1210004</Asset>
+        </Item>
+    </ModOp>
+    <!-- Add to Assetpool -->
+    <ModOp GUID='112719' Type="merge" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1210004</Asset>
+        </Item>
+    </ModOp>
+    <!-- Add Effects -->
+    <ModOp GUID='368' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1210000</GUID>
+        </Item>
+        <Item>
+            <GUID>1210001</GUID>
+        </Item>
+        <Item>
+            <GUID>1210002</GUID>
+        </Item>
+        <Item>
+            <GUID>1210003</GUID>
+        </Item>
+    </ModOp>
+    <ModOp GUID='6000018' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1210000</GUID>
+        </Item>
+        <Item>
+            <GUID>1210001</GUID>
+        </Item>
+        <Item>
+            <GUID>1210002</GUID>
+        </Item>
+    </ModOp>
+    <ModOp GUID='193856' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1210000</GUID>
+        </Item>
+        <Item>
+            <GUID>1210001</GUID>
+        </Item>
+        <Item>
+            <GUID>1210002</GUID>
+        </Item>
+    </ModOp>
+    <ModOp GUID='190846' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1210000</GUID>
+        </Item>
+        <Item>
+            <GUID>1210001</GUID>
+        </Item>
+        <Item>
+            <GUID>1210002</GUID>
+        </Item>
+    </ModOp>
+    <ModOp GUID='193875' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1210000</GUID>
+        </Item>
+        <Item>
+            <GUID>1210001</GUID>
+        </Item>
+        <Item>
+            <GUID>1210002</GUID>
+        </Item>
+    </ModOp>
+    <ModOp GUID='193770' Type="merge" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1210003</GUID>
+        </Item>
+    </ModOp>
+    <!-- Add to Feedback group -->
+    <ModOp GUID='142309' Type="merge" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1210000</Building>
+        </Item>
+        <Item>
+            <Building>1210001</Building>
+        </Item>
+        <Item>
+            <Building>1210002</Building>
+        </Item>
+        <Item>
+            <Building>1210003</Building>
+        </Item>
+    </ModOp>
+    <ModOp GUID='142311' Type="merge" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1210003</Building>
+        </Item>
+    </ModOp>
+    <!-- Add to Config Class -->
+    <ModOp GUID='142725' Type="merge" Path="/Values/FeedbackSessionDescription/WoodcutterConfig/WoodcutterBuildings">
+        <Item>
+            <Building>1210003</Building>
+            <WoodcutterFeedbackClass>116703</WoodcutterFeedbackClass>
+        </Item>
+    </ModOp>
+    <!-- Add to Needs group -->
+    <ModOp GUID='500945' Type="merge" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1210004</Building>
+        </Item>
+    </ModOp>
+</ModOps>

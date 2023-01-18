@@ -1,0 +1,56 @@
+{
+  "Version": "1",
+  "ModID": "EDGE_ExoticSpices",
+  "IncompatibleIds": [
+  ],
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Gameplay",
+    "French": null,
+    "German": "Spielablauf",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": "Rozgrywka",
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": "EDGE_SpiceProduction",
+    "English": "EDGE_SpiceProduction",
+    "French": "EDGE_SpiceProduction",
+    "German": "EDGE_SpiceProduction",
+    "Italian": "EDGE_SpiceProduction",
+    "Japanese": "EDGE_SpiceProduction",
+    "Korean": "EDGE_SpiceProduction",
+    "Polish": "EDGE_SpiceProduction",
+    "Russian": "EDGE_SpiceProduction",
+    "Spanish": "EDGE_SpiceProduction",
+    "Taiwanese": "EDGE_SpiceProduction"
+  },
+  "Description": {
+    "Chinese": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "English": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "French": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "German": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "Italian": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "Japanese": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "Korean": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "Polish": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "Russian": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "Spanish": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen",
+    "Taiwanese": "Full Production chain for exotic spices, witch yields great bonuses to population and income if supplied to citizen"
+  },
+  "KnownIssues": "None",
+  "DLCDependencies": [
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "suggested"
+    }
+  ],
+  "CreatorName": "EDGE Gaming",
+  "CreatorContact": "Mats@EDGEGaming.no",
+  "Image" : "data/ExoticSpices.png"
+}

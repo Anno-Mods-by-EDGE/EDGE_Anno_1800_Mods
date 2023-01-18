@@ -752,7 +752,7 @@
     </ModOp>
 
     <!-- Add Products -->
-    <ModOp GUID='2125594694' Path="/Groups/Group/Groups" Type="add">
+    <ModOp GUID='1010250' Type="addNextSibling">
         <Group>
           <!-- Box of Assorted Exotic Spices -->
           <Asset>
@@ -968,7 +968,7 @@
         </Item>
     </ModOp>
     <!-- Add to Output Product to Happyness -->
-    <ModOp GUID='15000000,1500001,1500002,15000003,15000004,5403,112643,118745,601379,114330' Type="merge" Path="/Values/PopulationLevel7/PopulationInputs">
+    <ModOp GUID='15000000,15000001,15000002,15000003,15000004,5403,112643,118745,601379,114330' Type="merge" Path="/Values/PopulationLevel7/PopulationInputs">
         <Item>
             <Product>12100000</Product>
             <Amount>0.0001666667</Amount>
@@ -1103,7 +1103,7 @@
             <Building>1210004</Building>
         </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID='112791,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '112710']">
+    <ModOp Type="addNextSibling" GUID='112790,116344' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '112710']">
         <!-- Add Spice Chain Arctic -->
         <Item>
             <Building>1210004</Building>
@@ -1261,12 +1261,6 @@
         <Item>
             <Building>1210003</Building>
             <WoodcutterFeedbackClass>116703</WoodcutterFeedbackClass>
-        </Item>
-    </ModOp>
-    <!-- Add to Needs group -->
-    <ModOp GUID='500945' Type="merge" Path="/Values/FeedbackBuildingGroup/Buildings">
-        <Item>
-            <Building>1210004</Building>
         </Item>
     </ModOp>
     <!-- Reset Trigger for new Items -->

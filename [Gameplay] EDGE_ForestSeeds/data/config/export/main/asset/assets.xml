@@ -7,7 +7,7 @@
                         <Standard>
                           <GUID>2845221060</GUID>
                           <Name>Tree Trunks</Name>
-                          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_Forest_seeds_0.png</IconFilename>
+                          <IconFilename>data/ui/2kimages/icon_Forest_seed_00.png</IconFilename>
                           <InfoDescription>2845221061</InfoDescription>
                         </Standard>
                         <Text>
@@ -21,6 +21,7 @@
                           <LineID>15296</LineID>
                         </Text>
                         <Item>
+                          <Allocation>Lodge</Allocation>
                           <MaxStackSize>1</MaxStackSize>
                           <Rarity>Legendary</Rarity>
                           <TradePrice>500000</TradePrice>
@@ -35,6 +36,9 @@
                         <ItemEffect>
                           <EffectTargets>
                             <Item>
+                              <GUID>114703</GUID>
+                            </Item>
+                            <Item>
                               <GUID>114705</GUID>
                             </Item>
                           </EffectTargets>
@@ -60,15 +64,13 @@
                         <IrrigationUpgrade />
                       </Values>
                 </Asset>
-    </ModOp>
-    <ModOp Type="addNextSibling" GUID="125072">
                 <Asset>
                       <Template>GuildhouseItem</Template>
                       <Values>
                         <Standard>
                           <GUID>2845221062</GUID>
                           <Name>Tree Trunks</Name>
-                          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_Forest_seeds_0.png</IconFilename>
+                          <IconFilename>data/ui/2kimages/icon_Forest_seed_00.png</IconFilename>
                           <InfoDescription>2845221061</InfoDescription>
                         </Standard>
                         <Text>
@@ -82,8 +84,9 @@
                           <LineID>15296</LineID>
                         </Text>
                         <Item>
+                          <Allocation>Lodge</Allocation>
                           <MaxStackSize>1</MaxStackSize>
-                          <Rarity>Rare</Rarity>
+                          <Rarity>epic</Rarity>
                           <TradePrice>250000</TradePrice>
                         </Item>
                         <FactoryUpgrade>
@@ -96,62 +99,8 @@
                         <ItemEffect>
                           <EffectTargets>
                             <Item>
-                              <GUID>114705</GUID>
+                              <GUID>114703</GUID>
                             </Item>
-                          </EffectTargets>
-                        </ItemEffect>
-                        <ItemAction />
-                        <ExpeditionAttribute>
-                          <BaseMorale>15</BaseMorale>
-                          <ItemDifficulties>Hard</ItemDifficulties>
-                        </ExpeditionAttribute>
-                        <CultureUpgrade />
-                        <BuildingUpgrade />
-                        <ModuleOwnerUpgrade />
-                        <IncidentInfluencerUpgrade />
-                        <IncidentInfectableUpgrade />
-                        <ResidenceUpgrade />
-                        <PopulationUpgrade />
-                        <IndustrializableUpgrade />
-                        <Locked />
-                        <Buff />
-                        <CraftableItem />
-                        <HeaterUpgrade />
-                        <PowerplantUpgrade />
-                        <IrrigationUpgrade />
-                      </Values>
-                </Asset>
-    </ModOp>
-    <ModOp Type="addNextSibling" GUID="125072">
-                <Asset>
-                      <Template>GuildhouseItem</Template>
-                      <Values>
-                        <Standard>
-                          <GUID>2845221063</GUID>
-                          <Name>Tree Trunks</Name>
-                          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_Forest_seeds_0.png</IconFilename>
-                          <InfoDescription>2845221061</InfoDescription>
-                        </Standard>
-                        <Text>
-                          <LocaText>
-                            <English>
-                              <Text>Industrial Grade Tree Trunks</Text>
-                              <Status>Exported</Status>
-                              <ExportCount>3</ExportCount>
-                            </English>
-                          </LocaText>
-                          <LineID>15296</LineID>
-                        </Text>
-                        <Item>
-                          <MaxStackSize>1</MaxStackSize>
-                          <Rarity>uncommon</Rarity>
-                          <TradePrice>100000</TradePrice>
-                        </Item>
-                        <FactoryUpgrade>
-                          <AddedFertility>114236</AddedFertility>
-                        </FactoryUpgrade>
-                        <ItemEffect>
-                          <EffectTargets>
                             <Item>
                               <GUID>114705</GUID>
                             </Item>
@@ -178,15 +127,13 @@
                         <IrrigationUpgrade />
                       </Values>
                 </Asset>
-    </ModOp>
-    <ModOp Type="addNextSibling" GUID="125072">
                 <Asset>
                       <Template>GuildhouseItem</Template>
                       <Values>
                         <Standard>
-                          <GUID>2845221064</GUID>
+                          <GUID>2845221063</GUID>
                           <Name>Tree Trunks</Name>
-                          <IconFilename>data/ui/2kimages/main/3dicons/fertilities/icon_Forest_seeds_0.png</IconFilename>
+                          <IconFilename>data/ui/2kimages/icon_Forest_seed_00.png</IconFilename>
                           <InfoDescription>2845221061</InfoDescription>
                         </Standard>
                         <Text>
@@ -200,8 +147,68 @@
                           <LineID>15296</LineID>
                         </Text>
                         <Item>
+                          <Allocation>Lodge</Allocation>
                           <MaxStackSize>1</MaxStackSize>
-                          <Rarity>common</Rarity>
+                          <Rarity>rare</Rarity>
+                          <TradePrice>100000</TradePrice>
+                        </Item>
+                        <FactoryUpgrade>
+                          <AddedFertility>114236</AddedFertility>
+                        </FactoryUpgrade>
+                        <ItemEffect>
+                          <EffectTargets>
+                            <Item>
+                              <GUID>114703</GUID>
+                            </Item>
+                            <Item>
+                              <GUID>114705</GUID>
+                            </Item>
+                          </EffectTargets>
+                        </ItemEffect>
+                        <ItemAction />
+                        <ExpeditionAttribute>
+                          <BaseMorale>15</BaseMorale>
+                          <ItemDifficulties>Hard</ItemDifficulties>
+                        </ExpeditionAttribute>
+                        <CultureUpgrade />
+                        <BuildingUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <ResidenceUpgrade />
+                        <PopulationUpgrade />
+                        <IndustrializableUpgrade />
+                        <Locked />
+                        <Buff />
+                        <CraftableItem />
+                        <HeaterUpgrade />
+                        <PowerplantUpgrade />
+                        <IrrigationUpgrade />
+                      </Values>
+                </Asset>
+                <Asset>
+                      <Template>GuildhouseItem</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>2845221064</GUID>
+                          <Name>Tree Trunks</Name>
+                          <IconFilename>data/ui/2kimages/icon_Forest_seed_00.png</IconFilename>
+                          <InfoDescription>2845221061</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Industrial Grade Tree Trunks</Text>
+                              <Status>Exported</Status>
+                              <ExportCount>3</ExportCount>
+                            </English>
+                          </LocaText>
+                          <LineID>15296</LineID>
+                        </Text>
+                        <Item>
+                          <Allocation>Lodge</Allocation>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>uncommon</Rarity>
                           <TradePrice>50000</TradePrice>
                         </Item>
                         <FactoryUpgrade>
@@ -214,6 +221,9 @@
                         <ItemEffect>
                           <EffectTargets>
                             <Item>
+                              <GUID>114703</GUID>
+                            </Item>
+                            <Item>
                               <GUID>114705</GUID>
                             </Item>
                           </EffectTargets>
@@ -240,127 +250,60 @@
                       </Values>
                 </Asset>
     </ModOp>
-<!--Create new Itempool Legendary Seeds for Arctic Lodge-->
-	<ModOp Type="addNextSibling" GUID="112678">
-		<Asset>
-			<Template>RewardPool</Template>
-			<Values>
-				<Standard>
-					<GUID>2845221065</GUID>
-					<Name>LegendarySeedsArcticLodge</Name>
-				</Standard>
-				<RewardPool>
-					<ItemsPool>
-					</ItemsPool>
-				</RewardPool>
-				<Locked />
-				<Text />
-			</Values>
-		</Asset>
+<!--Add New items to Itempool-->
+	<ModOp Type="add" GUID="116341"  Path="/Values/RewardPool/ItemsPool">
+      <Item>
+        <ItemLink>2845221060</ItemLink>
+      </Item>
 	</ModOp>
-	<ModOp Type="addNextSibling" GUID="112678">
-		<Asset>
-			<Template>RewardPool</Template>
-			<Values>
-				<Standard>
-					<GUID>2845221066</GUID>
-					<Name>rareSeedsArcticLodge</Name>
-				</Standard>
-				<RewardPool>
-					<ItemsPool>
-					</ItemsPool>
-				</RewardPool>
-				<Locked />
-				<Text />
-			</Values>
-		</Asset>
+	<ModOp Type="add" GUID="116340"  Path="/Values/RewardPool/ItemsPool">
+      <Item>
+        <ItemLink>2845221062</ItemLink>
+      </Item>
 	</ModOp>
-    <ModOp Type="addNextSibling" GUID="112678">
-        <Asset>
-            <Template>RewardPool</Template>
-            <Values>
-                <Standard>
-                <GUID>2845221067</GUID>
-                <Name>SeedsArcticLodge</Name>
-                </Standard>
-                <RewardPool>
-                <ItemsPool>
-                </ItemsPool>
-                </RewardPool>
-                <Locked />
-                <Text />
-            </Values>
-        </Asset>
-    </ModOp>
-<!--Add new Items to new Itempool Arctic Lodge-->
-    <ModOp Type="add" GUID="2845221065" Path="/Values/RewardPool/ItemsPool">
-
-                        <Item>
-                          <ItemLink>2845221060</ItemLink>
-                        </Item>
-    </ModOp>
-<!--Add new Items to new Itempool Arctic Lodge-->
-    <ModOp Type="add" GUID="2845221066" Path="/Values/RewardPool/ItemsPool">
-                        <Item>
-                          <ItemLink>2845221062</ItemLink>
-                        </Item>
-    </ModOp>
-<!--Add new Items to new Itempool Arctic Lodge-->
-    <ModOp Type="add" GUID="2845221067" Path="/Values/RewardPool/ItemsPool">
-                        <Item>
-                          <ItemLink>2845221063</ItemLink>
-                        </Item>
-                        <Item>
-                          <ItemLink>2845221064</ItemLink>
-                        </Item>
-    </ModOp>
+	<ModOp Type="add" GUID="116339"  Path="/Values/RewardPool/ItemsPool">
+      <Item>
+        <ItemLink>2845221064</ItemLink>
+      </Item>
+      <Item>
+        <ItemLink>2845221063</ItemLink>
+      </Item>
+	</ModOp>
+	<ModOp Type="add" GUID="117398"  Path="/Values/RewardPool/ItemsPool">
+      <Item>
+        <ItemLink>2845221060</ItemLink>
+      </Item>
+      <Item>
+        <ItemLink>2845221062</ItemLink>
+      </Item>
+      <Item>
+        <ItemLink>2845221064</ItemLink>
+      </Item>
+      <Item>
+        <ItemLink>2845221063</ItemLink>
+      </Item>
+	</ModOp>
 <!--Add new Items to associated AssetPool-->
-    <ModOp Type="add" GUID="129504" Path="/Values/AssetPool/AssetList">
-                        <Item>
-                          <Asset>2845221060</Asset>
-                        </Item>
-                        <Item>
-                          <ItemLink>2845221062</ItemLink>
-                        </Item>
-                        <Item>
-                          <ItemLink>2845221063</ItemLink>
-                        </Item>
-                        <Item>
-                          <ItemLink>2845221064</ItemLink>
-                        </Item>
-    </ModOp>
-<!--Add Itempools to existing Itempools with weight 10 and 2-->
-    <ModOp Type="add" GUID="130314,130304,130378,129990,127480,127479,127478,127476,127840" Path="/Values/RewardPool/ItemsPool">
-                            <Item>
-                                <ItemLink>2845221065</ItemLink>
-                                <!--Change Weight between 1 and 100; sensible values: 1 to 20-->
-                                <Weight>2</Weight>
-                            </Item>
-    </ModOp>
-<!--Add Itempools to existing Itempools with weight 10 and 2-->
-    <ModOp Type="add" GUID="130314,130304,130378,129990,127480,127479,127478,127476,127840" Path="/Values/RewardPool/ItemsPool">
-                            <Item>
-                                <ItemLink>2845221066</ItemLink>
-                                <!--Change Weight between 1 and 100; sensible values: 1 to 20-->
-                                <Weight>5</Weight>
-                            </Item>
-    </ModOp>
-
-    <ModOp Type="add" GUID="130314,130304,130378,129990,127480,127479,127478,127476,127842" Path="/Values/RewardPool/ItemsPool">
-                            <Item>
-                                <ItemLink>2845221067</ItemLink>
-                                <!--Change Weight between 1 and 100; sensible values: 1 to 10-->
-                                <Weight>10</Weight>
-                            </Item>
-    </ModOp>
-
-
-<!--Reset Trigger for new Items; 114336 includes 129504 which includes the items-->
-    <ModOp Type="addNextSibling" GUID="114336">
-     <Asset>
+  <ModOp Type="add" GUID="116285" Path="/Values/AssetPool/AssetList">
+                      <Item>
+                        <Asset>2845221060</Asset>
+                      </Item>
+                      <Item>
+                        <ItemLink>2845221062</ItemLink>
+                      </Item>
+                      <Item>
+                        <ItemLink>2845221063</ItemLink>
+                      </Item>
+                      <Item>
+                        <ItemLink>2845221064</ItemLink>
+                      </Item>
+  </ModOp>
+<!--Reset Trigger for new Items-->
+  <ModOp Type="addNextSibling" GUID="114336">
+   <Asset>
 	  <Template>Trigger</Template>
 	  <Values>
-	    <Standard>
+	  <Standard>
 		  <GUID>2845221068</GUID>
 		  <Name>Rerun TriggerItems Intermediate Arctic</Name>
 		</Standard>
@@ -393,6 +336,6 @@
 	  <TriggerSetup />
 	  </Values>
 	 </Asset>
-    </ModOp>
+  </ModOp>
 
 </ModOps>

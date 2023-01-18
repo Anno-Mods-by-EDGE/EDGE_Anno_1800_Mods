@@ -976,7 +976,7 @@
             <MoneyValue>12</MoneyValue>
             <AdditionalGlobalUnlockRequirement>
               <Population>15000002</Population>
-              <MinPopulationAmount>300</MinPopulationAmount>
+              <MinPopulationAmount>500</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
             <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
             <IsBonusNeed>1</IsBonusNeed>
@@ -989,8 +989,8 @@
             <SupplyWeight>3</SupplyWeight>
             <MoneyValue>12</MoneyValue>
             <AdditionalGlobalUnlockRequirement>
-              <Population>15000002</Population>
-              <MinPopulationAmount>300</MinPopulationAmount>
+              <Population>112642</Population>
+              <MinPopulationAmount>100</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
             <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
             <IsBonusNeed>1</IsBonusNeed>
@@ -1053,7 +1053,7 @@
         </Asset>
     </ModOp>
     <!-- add New Triggers -->
-    <ModOp GUID='130252' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnhideAssets" Type="merge">
+    <ModOp GUID='130216' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnhideAssets" Type="merge">
         <!-- Unhide Assets -->
         <Item>
             <Asset>1210004</Asset>
@@ -1072,13 +1072,13 @@
         </Item>
     </ModOp>
     <!-- Unlock Assets -->
-    <ModOp GUID='130254' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
+    <ModOp GUID='130217' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
         <!-- Unlock Chains -->
         <Item>
             <Asset>1210004</Asset>
         </Item>
     </ModOp>
-    <ModOp GUID='130255' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
+    <ModOp GUID='130218' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
         <!-- Unlock Buildings -->
         <Item>
             <Asset>1210000</Asset>
@@ -1089,6 +1089,9 @@
         <Item>
             <Asset>1210002</Asset>
         </Item>
+    </ModOp>
+    <ModOp GUID='112645' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets" Type="merge">
+        <!-- Unlock Thyme Arctic -->
         <Item>
             <Asset>1210003</Asset>
         </Item>
@@ -1106,13 +1109,13 @@
             <Building>1210004</Building>
         </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID='25000193' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500904']">
+    <ModOp Type="addNextSibling" GUID='25000193,500950' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500905']">
         <!-- Add Spice Chain SouthAmerica -->
         <Item>
             <Building>1210004</Building>
         </Item>
     </ModOp>    
-    <ModOp Type="addNextSibling" GUID='114553' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '114565']">
+    <ModOp Type="addNextSibling" GUID='114553,119024' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '114565']">
         <!-- Add Spice Chain Africa -->
         <Item>
             <Building>1210004</Building>
@@ -1266,4 +1269,43 @@
             <Building>1210004</Building>
         </Item>
     </ModOp>
+    <!-- Reset Trigger for new Items -->
+    <!-- <ModOp Type="addNextSibling" GUID="130255">
+      <Asset>
+       <Template>Trigger</Template>
+       <Values>
+       <Standard>
+         <GUID>1210005</GUID>
+         <Name>Rerun TriggerItems Intermediate</Name>
+       </Standard>
+       <Trigger>
+         <TriggerCondition>
+           <Template>ConditionPlayerCounter</Template>
+         <Values>
+           <Condition />
+           <ConditionPlayerCounter>
+             <PlayerCounter>PopulationByLevel</PlayerCounter>
+           <Context>15000001</Context>
+           <CounterAmount>1</CounterAmount>
+           </ConditionPlayerCounter>
+         </Values>
+         </TriggerCondition>
+         <TriggerActions>
+           <Item>
+           <TriggerAction>
+             <Template>ActionRegisterTrigger</Template>
+             <Values>
+                 <Action />
+                 <ActionRegisterTrigger>
+                   <TriggerAsset>1210004</TriggerAsset>
+                 </ActionRegisterTrigger>
+             </Values>
+           </TriggerAction>
+           </Item>
+         </TriggerActions>
+       </Trigger>
+       <TriggerSetup />
+       </Values>
+      </Asset>
+     </ModOp> -->
 </ModOps>

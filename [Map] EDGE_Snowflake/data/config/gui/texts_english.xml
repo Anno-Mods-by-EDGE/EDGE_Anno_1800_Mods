@@ -1,5 +1,5 @@
 <ModOps>
   <ModOp Type="replace" Path="//TextExport/Texts/Text[GUID='17083']/Text">
-    <Text>EDGE_Snowflake</Text>
+    <Text>EDGE Snowflake</Text>
   </ModOp>
 </ModOps>

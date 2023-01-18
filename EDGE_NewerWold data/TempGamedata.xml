@@ -1,0 +1,87 @@
+        <Assets> 
+            
+            <Asset>
+              <Template>Island</Template>
+              <Values>
+                <Standard>
+                  <GUID>160003</GUID>
+                  <Name>Campaign_BlakeIsland</Name>
+                </Standard>
+                <Island>
+                  <NameOfIsland>BlakeIsland</NameOfIsland>
+                </Island>
+              </Values>
+            </Asset>
+
+            <Asset>
+               <Template>Text</Template>
+               <Values>
+                 <Standard>
+                   <GUID>16137</GUID>
+                   <Name>IslandName_Blake</Name>
+                 </Standard>
+                 <Text>
+                   <LocaText>
+                     <English>
+                       <Text>High Clarence Hall</Text>
+                       <Status>Exported</Status>
+                       <ExportCount>2</ExportCount>
+                     </English>
+                   </LocaText>
+                   <LineID>20634</LineID>
+                 </Text>
+               </Values>
+            </Asset>      
+
+            <Item>
+              <TriggerAction>
+                <Template>ActionSetIslandName</Template>
+                <Values>
+                  <Action />
+                  <ActionSetIslandName>
+                    <SessionIsland>180023</SessionIsland>
+                    <IslandAsset>160003</IslandAsset>
+                    <NewIslandName>16137</NewIslandName>
+                  </ActionSetIslandName>
+                </Values>
+              </TriggerAction>
+            </Item>
+
+            <Asset>
+              <Template>TriggerCampaign</Template>
+              <Values>
+                <Standard>
+                  <GUID>150847</GUID>
+                  <Name>CQ123_EditorAlvinsShip_MovieTrigger</Name>
+                </Standard>
+                <Trigger>
+                  <TriggerCondition>
+                    <Template>ConditionEvent</Template>
+                    <Values>
+                      <Condition />
+                      <ConditionEvent>
+                        <ConditionEvent>MovieFinished</ConditionEvent>
+                        <ContextAsset>600198</ContextAsset>
+                      </ConditionEvent>
+                      <ConditionPropsNegatable />
+                    </Values>
+                  </TriggerCondition>
+                  <TriggerActions>
+                    <Item>
+                      <TriggerAction>
+                        <Template>ActionDiscoverIsland</Template>
+                        <Values>
+                          <Action />
+                          <ActionDiscoverIsland>
+                            <TargetIsland>160003</TargetIsland>
+                          </ActionDiscoverIsland>
+                        </Values>
+                      </TriggerAction>
+                    </Item>
+                  </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+              </Values>
+            </Asset>
+
+        </Assets>

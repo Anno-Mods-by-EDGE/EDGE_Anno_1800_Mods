@@ -753,7 +753,6 @@
 
     <!-- Add Products -->
     <ModOp GUID='1010250' Type="addNextSibling">
-        <Group>
           <!-- Box of Assorted Exotic Spices -->
           <Asset>
             <Template>Product</Template>
@@ -950,10 +949,9 @@
               </ExpeditionAttribute>
             </Values>
           </Asset>
-        </Group>
     </ModOp>
     <!-- Add to Products Storage List -->
-    <ModOp GUID='120055' Type="merge" Path="/Values/ProductStorageList/ProductList">
+    <ModOp GUID='120055' Type="add" Path="/Values/ProductStorageList/ProductList">
         <Item>
             <Product>12100000</Product><!-- Box of Assorted Exotic Spices -->
         </Item>
@@ -967,8 +965,20 @@
             <Product>12100003</Product><!-- Thyme -->
         </Item>
     </ModOp>
+    <!-- Add to Products luxury List -->
+    <ModOp GUID='501992' Type="add" Path="/Values/ProductList/List">
+        <Item>
+            <Product>12100000</Product><!-- Box of Assorted Exotic Spices -->
+        </Item>
+    </ModOp>
+    <!-- Add to TouristConsumerGoods List -->
+    <ModOp GUID='502309' Type="add" Path="/Values/ProductList/List">
+        <Item>
+            <Product>12100000</Product><!-- Box of Assorted Exotic Spices -->
+        </Item>
+    </ModOp>
     <!-- Add to Output Product to Happyness -->
-    <ModOp GUID='15000000,15000001,15000002,15000003,15000004,5403,112643,118745,601379,114330' Type="merge" Path="/Values/PopulationLevel7/PopulationInputs">
+    <ModOp GUID='15000000,15000001,15000002,15000003,15000004,5403,112643,118745,601379,114330' Type="add" Path="/Values/PopulationLevel7/PopulationInputs">
         <Item>
             <Product>12100000</Product>
             <Amount>0.0001666667</Amount>
@@ -982,7 +992,7 @@
             <IsBonusNeed>1</IsBonusNeed>
         </Item>
     </ModOp>
-    <ModOp GUID='112642' Type="merge" Path="/Values/PopulationLevel7/PopulationInputs">
+    <ModOp GUID='112642' Type="add" Path="/Values/PopulationLevel7/PopulationInputs">
         <Item>
             <Product>12100003</Product>
             <Amount>0.0001666667</Amount>
@@ -1051,6 +1061,13 @@
                 </Text>
             </Values>
         </Asset>
+    </ModOp>
+
+    <!-- add to Bonus Needs Config -->
+    <ModOp GUID='25000118' Type="addNextSibling" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item/Needs/item[BonusNeed = '114364']">
+        <Item>
+          <BonusNeed>12100000</BonusNeed>
+        </Item>
     </ModOp>
     <!-- add New Triggers -->
     <ModOp GUID='130216' Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnhideAssets" Type="merge">
@@ -1264,7 +1281,7 @@
         </Item>
     </ModOp>
     <!-- Reset Trigger for new Items -->
-    <!-- <ModOp Type="addNextSibling" GUID="130255">
+    <ModOp Type="addNextSibling" GUID="130219">
       <Asset>
        <Template>Trigger</Template>
        <Values>
@@ -1279,7 +1296,7 @@
            <Condition />
            <ConditionPlayerCounter>
              <PlayerCounter>PopulationByLevel</PlayerCounter>
-           <Context>15000001</Context>
+           <Context>15000002</Context>
            <CounterAmount>1</CounterAmount>
            </ConditionPlayerCounter>
          </Values>
@@ -1291,7 +1308,9 @@
              <Values>
                  <Action />
                  <ActionRegisterTrigger>
-                   <TriggerAsset>1210004</TriggerAsset>
+                  <TriggerAsset>112645</TriggerAsset>
+                  <TriggerAsset>130218</TriggerAsset>
+                  <TriggerAsset>130217</TriggerAsset>
                  </ActionRegisterTrigger>
              </Values>
            </TriggerAction>
@@ -1301,5 +1320,5 @@
        <TriggerSetup />
        </Values>
       </Asset>
-     </ModOp> -->
+    </ModOp>
 </ModOps>
